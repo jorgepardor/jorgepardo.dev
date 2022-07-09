@@ -5,7 +5,11 @@ module.exports = {
   ],
   darkMode: 'media',
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        Sta: ['Staatliches']
+      },
+    },
   },
   plugins: [
     require('flowbite/plugin')
