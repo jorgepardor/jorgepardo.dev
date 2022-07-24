@@ -7,7 +7,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        Sta: ['Staatliches']
+        Sta: ['Staatliches'],
+        Ral: ['Raleway']
       },
     },
   },

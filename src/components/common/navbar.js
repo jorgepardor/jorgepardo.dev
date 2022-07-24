@@ -69,7 +69,7 @@ export const Navbar = () => {
 					<ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
 						<li>
 							<a
-								href="/editorial"
+								href="..."
 								className="font-Mukta text-sm block py-2 pr-4 pl-3 text-Light-gray border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-Yellow-custom md:p-0 dark:hover:text-white"
 							>
 								Home
@@ -77,52 +77,44 @@ export const Navbar = () => {
 						</li>
 						<li>
 							<a
-								href="/editorial"
+								href="..."
 								className="font-Mukta text-sm block py-2 pr-4 pl-3 text-Light-gray border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-Yellow-custom md:p-0 dark:hover:text-white"
 							>
-								Diseño Editorial
+								Graphic
 							</a>
 						</li>
 						<li>
 							<a
-								href="/corporativo"
+								href="..."
 								className="font-Mukta text-sm block py-2 pr-4 pl-3 text-Light-gray border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-Yellow-custom md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-Light-gray dark:hover:text-white md:dark:hover:bg-transparent dark:border-Light-gray"
 							>
-								Imagen Corporativa
-							</a>
-						</li>
-						{/* <li>
-							<a
-								href="/marketing"
-								className="font-Mukta text-sm block py-2 pr-4 pl-3 text-Light-gray border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-Yellow-custom md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-Light-gray dark:hover:text-white md:dark:hover:bg-transparent dark:border-Light-gray"
-							>
-								Marketing
+								UX/UI
 							</a>
 						</li>
 						<li>
 							<a
-								href="/3d"
-								className="font-Mukta text-sm block py-2 pr-4 pl-3 text-Light-gray border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-Yellow-custom md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-Light-gray dark:hover:text-white md:dark:hover:bg-transparent dark:border-Light-gray"
+								href="..."
+								className="font-Mukta text-sm block py-2 pr-4 pl-3 text-Light-gray border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-Yellow-custom md:p-0 dark:hover:text-white"
 							>
-								Cinema 4D
+								Code
 							</a>
 						</li>
 						<li>
 							<a
-								href="/personal"
-								className="font-Mukta text-sm block py-2 pr-4 pl-3 text-Light-gray border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-Yellow-custom md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-Light-gray dark:hover:text-white md:dark:hover:bg-transparent dark:border-Light-gray"
+								href="..."
+								className="font-Mukta text-sm block py-2 pr-4 pl-3 text-Light-gray border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-Yellow-custom md:p-0 dark:hover:text-white"
 							>
-								Proyectos Personales
+								Other
 							</a>
 						</li>
 						<li>
 							<a
-								href="/video"
+								href="..."
 								className="font-Mukta text-sm block py-2 pr-4 pl-3 text-Light-gray border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-Yellow-custom md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-Light-gray dark:hover:text-white md:dark:hover:bg-transparent dark:border-Light-gray"
 							>
-								Edición de Vídeo
+								Profile
 							</a>
-						</li> */}
+						</li>
 					</ul>
 				</div>
 			</div>
