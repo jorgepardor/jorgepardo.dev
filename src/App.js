@@ -3,11 +3,11 @@ import "./App.css";
 function App() {
   return (
     <div className="flex h-screen justify-center items-center color-6">
-      <h1 className=" text-5xl text-gray-600 font-Ral text-center">
+      <h1 className="w-full text-5xl text-DarkGR font-Ral text-center">
         JORGEPARDO.DEV
       </h1>
 
-      <section className="mx-auto">
+      <section className="w-full">
         <nav className="mx-auto cl-effect-18">
           <a href="..." className="font-Ral" Data-hover="Graphic">
             Graphic

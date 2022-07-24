@@ -10,11 +10,14 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 	<div className='flex flex-col h-screen'>
 			<BrowserRouter>
-				<Navbar />
-				<Routes>
+        <Routes>
 					<Route path="/" element={<App />} />
 				</Routes>
-				<Footer />
+				{/* <Navbar /> */}
+				<Routes>
+					{/* <Route path="/" element={<App />} /> */}
+				</Routes>
+				{/* <Footer /> */}
 			</BrowserRouter>
 	</div>
 );
