@@ -1,9 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+	.btn-waylanders {
+	  @apply transition ease-in-out duration-500 focus:border-TW-el-active focus:text-TW-el-active inline-flex p-4 font-Cin rounded-t-lg border-b-2 border-transparent text-TW-tx-disable hover:text-TW-tx-enable hover:border-TW-tx-enable dark:hover:text-TW-tx-enable;
+	}
+
+	.icon-waylanders {
+		@apply transition ease-in-out duration-500 text-TW-tx-disable hover:text-TW-tx-enable hover:border-gray-300 dark:hover:text-TW-tx-enable focus:border-TW-el-active focus:text-TW-el-active group-hover:text-gray-500 dark:text-gray-500 dark:group-hover:text-gray-300;
+	}
+  }
 
 
 *,

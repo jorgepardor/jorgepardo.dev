@@ -11,11 +11,19 @@ module.exports = {
 			"DarkBG": "#011F26",
 			"DarkGR": "#025E73",
 			"DarkPk": "#F2668B",
+      "TW-bg-dark": "#191712",
+      "TW-tx-enable": "#CFC7A0",
+      "TW-tx-disable": "#575757",
+      "TW-el-active": "#EDAD49"
+
+
+
 		},
     extend: {
       fontFamily: {
         Sta: ['Staatliches'],
-        Ral: ['Raleway']
+        Ral: ['Raleway'],
+        Cin: ['Cinzel']
       },
     },
   },
