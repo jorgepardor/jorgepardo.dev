@@ -23,7 +23,8 @@ module.exports = {
       fontFamily: {
         Sta: ['Staatliches'],
         Ral: ['Raleway'],
-        Cin: ['Cinzel']
+        Cin: ['Cinzel'],
+        Fir: ['Fira Sans']
       },
     },
   },
