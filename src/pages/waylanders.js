@@ -5,6 +5,7 @@ import { HudCombat } from "../components/waylanders/combatHUD";
 import { UxPreviousMain } from "../components/waylanders/otherUxProto";
 import { UxPreviousIngame } from "../components/waylanders/otherUxProtoIngame";
 import { GraphicElements } from "../components/waylanders/graphic";
+import { Branding } from "../components/waylanders/branding";
 
 const active_class = "btn-waylanders";
 const deactive_class = "btn-waylanders";
@@ -31,7 +32,7 @@ const changeTab = (e) => {
 
 export const Waylanders = () => {
   return (
-    <section className="bg-TW-bg-dark">
+    <section className="...">
       <div className="bg-[url('https://res.cloudinary.com/jorgepardor/image/upload/v1660418933/jorgepardo.dev/waylanders/TheWaylanders_LiveStreaming_Banner_iuqvad.png')] bg-no-repeat bg-center bg-cover  border-b-4 border-TW-tx-disable dark:border-TW-tx-disable">
         <div className="flex items-center py-24">
           <img
@@ -42,7 +43,7 @@ export const Waylanders = () => {
         </div>
       </div>
 
-      <div className="...">
+      <div className="bg-TW-bg-dark h-max">
         <ul className="flex flex-wrap justify-center -mb-px text-md font-medium text-center text-TW-tx-disable dark:text-gray-400">
           <li className="mr-2 " role="presentation">
             <button
@@ -159,11 +160,11 @@ export const Waylanders = () => {
         </ul>
       </div>
 
-      <div className="container mx-auto h-screen" id="mainContent">
+      <div className="bg-TW-bg-dark" id="mainContent">
         {/* Contenido de la sección de gestión de usuarios */}
 
         <div
-          className="h-full"
+          className="container mx-auto pb-36"
           id="uxui"
           role="tabpanel"
           aria-labelledby="uxui-tab"
@@ -174,16 +175,16 @@ export const Waylanders = () => {
         </div>
 
         <div
-          className="hidden bg-DarkGR"
+          className="hidden mx-auto pb-36"
           id="branding"
           role="tabpanel"
           aria-labelledby="branding-tab"
         >
-          <h2>Aqui ira branding</h2>
+          <Branding />
         </div>
 
         <div
-          className="hidden"
+          className="hidden mx-auto pb-36"
           id="graphic"
           role="tabpanel"
           aria-labelledby="graphic-tab"
@@ -192,27 +193,11 @@ export const Waylanders = () => {
         </div>
 
         <div
-          className="hidden"
+          className="hidden mx-auto pb-36"
           id="other"
           role="tabpanel"
           aria-labelledby="other-tab"
         >
-        <div>
-          <p className="subtitle-waylanders text-center mt-16 mb-8">Ingame menu</p>
-        </div>
-        <p className="text-waylanders text-center">
-          I'm baby banjo taxidermy you probably haven't heard of them chillwave
-          bruh yr, poke 3 wolf moon. Retro aesthetic trust fund fanny pack
-          direct trade, literally bitters lyft master cleanse celiac godard.
-          Subway tile vegan blue bottle, sartorial literally venmo raw denim
-          bespoke small batch man braid meggings typewriter. Irony small batch
-          mixtape.
-          <br />
-          Hella iPhone bruh umami poutine pug. Vinyl cold-pressed everyday carry
-          green juice prism, food truck enamel pin gatekeep health goth. 90's
-          portland DIY gochujang dreamcatcher tacos organic. Hot chicken
-          crucifix yr palo santo tacos waistcoat.
-        </p>
           <UxPreviousMain />
           <UxPreviousIngame />
         </div>

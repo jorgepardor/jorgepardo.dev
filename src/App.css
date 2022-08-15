@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.slick-next {
+  /* color: red !important;
+  background-color: aqua; */
+}
+
+.slick-next:before {
+  content: ">";
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #cfc7a0;
+}
+
+.slick-prev:before {
+  content: "<";
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #cfc7a0;
+}

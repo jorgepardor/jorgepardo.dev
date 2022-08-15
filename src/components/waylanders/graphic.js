@@ -13,27 +13,34 @@ export const GraphicElements = () => {
     slidesToScroll: 1,
     lazyLoad: true,
     pauseOnHover: true,
+    arrows: false,
   };
 
   return (
-    <div className="flex items-center justify-center mx-14 mt-14">
+    <div className="flex items-center justify-center mx-14 pt-14">
       <div className="container">
-        <div className="...">
-          <img
-            className="mx-auto"
-            src="https://res.cloudinary.com/jorgepardor/image/upload/v1660431440/jorgepardo.dev/waylanders/graphic/main_feats_waylanders_02_xtq3g5.webp"
-            alt="Imagen de variedades"
-          />
-          <img
-            className="mx-auto"
-            src="https://res.cloudinary.com/jorgepardor/image/upload/v1660431440/jorgepardo.dev/waylanders/graphic/gallaecia_map_tky1g9.webp"
-            alt="Imagen de variedades"
-          />
-          <img
-            className="mx-auto"
-            src="https://res.cloudinary.com/jorgepardor/image/upload/v1660431440/jorgepardo.dev/waylanders/graphic/kaltia_map_qcrfzg.webp"
-            alt="Imagen de variedades"
-          />
+        <div className="row flex justify-center">
+          <div className="col-12 col-md-4">
+            <img
+              className="mx-auto"
+              src="https://res.cloudinary.com/jorgepardor/image/upload/v1660431440/jorgepardo.dev/waylanders/graphic/main_feats_waylanders_02_xtq3g5.webp"
+              alt="Imagen de variedades"
+            />
+          </div>
+          <div className="col-12 col-md-4">
+            <img
+              className="mx-auto"
+              src="https://res.cloudinary.com/jorgepardor/image/upload/v1660431440/jorgepardo.dev/waylanders/graphic/gallaecia_map_tky1g9.webp"
+              alt="Imagen de variedades"
+            />
+          </div>
+          <div className="col-12 col-md-4">
+            <img
+              className="mx-auto"
+              src="https://res.cloudinary.com/jorgepardor/image/upload/v1660431440/jorgepardo.dev/waylanders/graphic/kaltia_map_qcrfzg.webp"
+              alt="Imagen de variedades"
+            />
+          </div>
         </div>
         <Slider {...settings}>
           <div className="w-80 mx-auto">
@@ -156,27 +163,33 @@ export const GraphicElements = () => {
             />
           </div>
         </Slider>
-        <div className="...">
-          <img
-            className="mx-auto"
-            src="https://res.cloudinary.com/jorgepardor/image/upload/v1660431189/jorgepardo.dev/waylanders/graphic/imagen_ppal_01_noprealpha_vabcms.webp"
-            alt="Imagen de variedades"
-          />
-          <img
-            className="mx-auto"
-            src="https://res.cloudinary.com/jorgepardor/image/upload/v1660431189/jorgepardo.dev/waylanders/graphic/00_Teaser_kickstarter_funded_rwaslc.webp"
-            alt="Imagen de variedades"
-          />
-          <img
-            className="mx-auto"
-            src="https://res.cloudinary.com/jorgepardor/image/upload/v1660431191/jorgepardo.dev/waylanders/graphic/imagen_principal_propo2_vnulrk.webp"
-            alt="Imagen de variedades"
-          />
-          <img
-            className="mx-auto"
-            src="https://res.cloudinary.com/jorgepardor/image/upload/v1660431440/jorgepardo.dev/waylanders/graphic/Waylanders_UnrealProjectIcon_v2_adw9ot.webp"
-            alt="Imagen de variedades"
-          />
+        <div className="flex flex-row">
+          <div className="basis-2/5">
+            <img
+              className="..."
+              src="https://res.cloudinary.com/jorgepardor/image/upload/v1660431189/jorgepardo.dev/waylanders/graphic/imagen_ppal_01_noprealpha_vabcms.webp"
+              alt="Imagen de variedades"
+            />
+          </div>
+          <div className="basis-2/5">
+            <img
+              className="..."
+              src="https://res.cloudinary.com/jorgepardor/image/upload/v1660431189/jorgepardo.dev/waylanders/graphic/00_Teaser_kickstarter_funded_rwaslc.webp"
+              alt="Imagen de variedades"
+            />
+          </div>
+          <div className="basis-1/5">
+            {/* <img
+              className="mx-auto"
+              src="https://res.cloudinary.com/jorgepardor/image/upload/v1660431191/jorgepardo.dev/waylanders/graphic/imagen_principal_propo2_vnulrk.webp"
+              alt="Imagen de variedades"
+            /> */}
+            <img
+              className="..."
+              src="https://res.cloudinary.com/jorgepardor/image/upload/v1660431440/jorgepardo.dev/waylanders/graphic/Waylanders_UnrealProjectIcon_v2_adw9ot.webp"
+              alt="Imagen de variedades"
+            />
+          </div>
         </div>
       </div>
     </div>
