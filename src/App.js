@@ -9,18 +9,18 @@ function App() {
 
       <section className="w-full">
         <nav className="mx-auto cl-effect-18">
-          <a href="..." className="font-Ral" Data-hover="Graphic">
+          <a href="/graphicdesign" className="font-Ral" Data-hover="Graphic">
             Graphic
           </a>
-          <a href="..." className="font-Ral" data-hover="UX/UI">
+          <a href="/waylanders" className="font-Ral" data-hover="UX/UI">
             UX/UI
           </a>
-          <a href="..." className="font-Ral" data-hover="Code">
+          {/* <a href="..." className="font-Ral" data-hover="Code">
             Code
           </a>
           <a href="..." className="font-Ral" data-hover="Other">
             Other
-          </a>
+          </a> */}
           <a href="..." className="font-Ral" data-hover="Profile">
             Profile
           </a>

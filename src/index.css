@@ -22,6 +22,17 @@
   .text-waylanders {
     @apply text-TW-tx-enable font-Fir;
   }
+
+  .btn-graphic {
+    @apply transition ease-in-out duration-500 saturate-0 focus:saturate-100 inline-flex p-4 rounded-t-lg border-b-2 border-transparent font-Ral hover:saturate-50;
+  }
+
+  .subtitle-graphic {
+    @apply text-DarkGR font-Ral text-4xl;
+  }
+  .text-graphic {
+    @apply text-DarkGR font-Ral;
+  }
 }
 
 *,
