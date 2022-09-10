@@ -24,8 +24,7 @@
   }
 
   .btn-graphic {
-    @apply transition ease-in-out duration-500 saturate-0 focus:saturate-100 inline-flex p-4 rounded-t-lg border-b-2 border-transparent font-Ral hover:saturate-50;
-  }
+    @apply transition ease-in-out duration-500 saturate-0 opacity-30 focus:saturate-100 inline-flex p-4 rounded-t-lg border-b-2 border-transparent font-Ral hover:saturate-50 focus:opacity-100;  }
 
   .subtitle-graphic {
     @apply text-DarkGR font-Ral text-4xl;

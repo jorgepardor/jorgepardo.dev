@@ -11,6 +11,7 @@ const active_class = "btn-waylanders";
 const deactive_class = "btn-waylanders";
 
 const changeTab = (e) => {
+  console.log(e);
   let id = e.target.getAttribute("data-tabs-target");
 
   document
@@ -52,7 +53,7 @@ export const Waylanders = () => {
               data-tabs-target="#uxui"
               type="button"
               aria-controls="uxui"
-              aria-selected="true"
+              // aria-selected="true"
               onClick={(e) => {
                 changeTab(e);
               }}
@@ -77,12 +78,12 @@ export const Waylanders = () => {
 
           <li className="mr-2 " role="presentation">
             <button
-              className={active_class}
+              className={deactive_class}
               id="branding-tab"
               data-tabs-target="#branding"
               type="button"
               aria-controls="branding"
-              aria-selected="true"
+              // aria-selected="true"
               onClick={(e) => {
                 changeTab(e);
               }}
@@ -103,12 +104,12 @@ export const Waylanders = () => {
 
           <li className="mr-2 " role="presentation">
             <button
-              className={active_class}
+              className={deactive_class}
               id="graphic-tab"
               data-tabs-target="#graphic"
               type="button"
               aria-controls="graphic"
-              aria-selected="true"
+              // aria-selected="true"
               onClick={(e) => {
                 changeTab(e);
               }}
@@ -129,12 +130,12 @@ export const Waylanders = () => {
 
           <li className="mr-2 " role="presentation">
             <button
-              className={active_class}
+              className={deactive_class}
               id="other-tab"
               data-tabs-target="#other"
               type="button"
               aria-controls="other"
-              aria-selected="true"
+              // aria-selected="true"
               onClick={(e) => {
                 changeTab(e);
               }}

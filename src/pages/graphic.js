@@ -6,27 +6,31 @@ import { Wazzp } from "../components/graphic/wazzp";
 import { Venezolana } from "../components/graphic/venezolana";
 import { Other } from "../components/graphic/other";
 
-const active_class = "btn-graphic";
-const deactive_class = "btn-graphic";
+const active_subclass = "btn-graphic";
+const nonactive_subclass = "btn-graphic";
 
 const changeTab = (e) => {
-  let id = e.target.getAttribute("data-tabs-target");
+  console.log(e);
+  let id = e.currentTarget.getAttribute("data-tabs-target");
+  console.log(id);
 
   document
-    .querySelectorAll("#mainContent > div")
+    .querySelectorAll("#mainContentGraphic > div")
     .forEach((el) => el.classList.add("hidden"));
 
-  document.querySelector(id).classList.remove("hidden");
+  const selected = document.querySelector(id)
+  console.log(selected)
+  selected.classList.remove("hidden");
 
   // Desactiva los botones que no están en foco en la navegación por tabs.
 
   document
     .querySelectorAll(".tab")
-    .forEach((element) => (element.className = deactive_class));
+    .forEach((element) => (element.className = nonactive_subclass));
 
   // Activa los botones al activarse en la navegación por tabs.
 
-  document.querySelector(`#${e.target.id}`).className = active_class;
+  document.querySelector(`#${e.currentTarget.id}`).className = active_subclass;
 };
 
 export const Graphic = () => {
@@ -36,102 +40,132 @@ export const Graphic = () => {
         <ul className="flex flex-wrap justify-center -mb-px text-md font-medium text-center text-TW-tx-disable dark:text-gray-400">
           <li className="mr-2 " role="presentation">
             <button
-              className={active_class}
+              className={active_subclass}
               id="fujiyama-tab"
               data-tabs-target="#fujiyama"
               type="button"
               aria-controls="fujiyama"
-              aria-selected="true"
+              // aria-selected="true"
               onClick={(e) => {
                 changeTab(e);
               }}
             >
-              <img src="https://via.placeholder.com/140x100/0000FF/808080?text=fujiyama" />
+              <img
+                src="https://res.cloudinary.com/jorgepardor/image/upload/v1662823881/jorgepardo.dev/navigation/nav-fujiyama_gmxcqv.webp"
+                alt="navegación: fujiyama"
+                width="140px"
+                height="100px"
+              />
             </button>
           </li>
 
           <li className="mr-2 " role="presentation">
             <button
-              className={active_class}
+              className={nonactive_subclass}
               id="gato-tab"
               data-tabs-target="#gato"
               type="button"
               aria-controls="gato"
-              aria-selected="true"
+              // aria-selected="true"
               onClick={(e) => {
                 changeTab(e);
               }}
             >
-              <img src="https://via.placeholder.com/140x100/0000FF/808080?text=gato" />
+              <img
+                src="https://res.cloudinary.com/jorgepardor/image/upload/v1662824321/jorgepardo.dev/navigation/nav-gato_kuwn8v.webp"
+                alt="navegación: venezolana"
+                width="140px"
+                height="100px"
+              />
             </button>
           </li>
 
           <li className="mr-2 " role="presentation">
             <button
-              className={active_class}
+              className={nonactive_subclass}
               id="lexquisite-tab"
               data-tabs-target="#lexquisite"
               type="button"
               aria-controls="lexquisite"
-              aria-selected="true"
+              // aria-selected="true"
               onClick={(e) => {
                 changeTab(e);
               }}
             >
-              <img src="https://via.placeholder.com/140x100/0000FF/808080?text=lexquisite" />
+              <img
+                src="https://res.cloudinary.com/jorgepardor/image/upload/v1662824211/jorgepardo.dev/navigation/nav-lexquisite_dr8whn.webp"
+                alt="navegación: lexquisite"
+                width="140px"
+                height="100px"
+              />{" "}
             </button>
           </li>
 
           <li className="mr-2 " role="presentation">
             <button
-              className={active_class}
+              className={nonactive_subclass}
               id="wazzp-tab"
               data-tabs-target="#wazzp"
               type="button"
               aria-controls="wazzp"
-              aria-selected="true"
+              // aria-selected="true"
               onClick={(e) => {
                 changeTab(e);
               }}
             >
-              <img src="https://via.placeholder.com/140x100/0000FF/808080?text=wazzp" />
+              <img
+                src="https://res.cloudinary.com/jorgepardor/image/upload/v1662824045/jorgepardo.dev/navigation/nav-wazzp_bhndpj.webp"
+                alt="navegación: wazzp"
+                width="140px"
+                height="100px"
+              />
             </button>
           </li>
 
           <li className="mr-2 " role="presentation">
             <button
-              className={active_class}
+              className={nonactive_subclass}
               id="venezolana-tab"
               data-tabs-target="#venezolana"
               type="button"
               aria-controls="venezolana"
-              aria-selected="true"
+              // aria-selected="true"
               onClick={(e) => {
                 changeTab(e);
               }}
             >
-              <img src="https://via.placeholder.com/140x100/0000FF/808080?text=venezolana" />
+              <img
+                src="https://res.cloudinary.com/jorgepardor/image/upload/v1662824112/jorgepardo.dev/navigation/nav-venezolana_kzkmmo.webp"
+                alt="navegación: venezolana"
+                width="140px"
+                height="100px"
+              />
             </button>
           </li>
           <li className="mr-2 " role="presentation">
             <button
-              className={active_class}
+              className={nonactive_subclass}
               id="other-tab"
               data-tabs-target="#other"
               type="button"
               aria-controls="other"
-              aria-selected="true"
+              // aria-selected="true"
               onClick={(e) => {
                 changeTab(e);
               }}
             >
-              <img src="https://via.placeholder.com/140x100/0000FF/808080?text=other" />
+              <img
+                src="https://res.cloudinary.com/jorgepardor/image/upload/v1662824511/jorgepardo.dev/navigation/nav-other_wspijp.webp"
+                alt="navegación: otros"
+                width="140px"
+                height="100px"
+              />
             </button>
           </li>
         </ul>
       </div>
 
-      <div className="bg-white" id="mainContent">
+      <div className="bg-white" id="mainContentGraphic">
         {/* Contenido de la sección de gestión de usuarios */}
         <div
           className="hidden mx-auto pb-36"

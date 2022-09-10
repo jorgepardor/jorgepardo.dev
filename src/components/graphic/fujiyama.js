@@ -57,7 +57,7 @@ export const Fujiyama = () => {
                   <div className="w-full sm:w-1/2 md:w-full h-48 xl:h-64 mb-4 sm:mb-0 md:mb-4 px-2">
                     <img
                       src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334231/jorgepardo.dev/fujiyama/espa%C3%B1a/bc7dd1110586413.5ff1c852329a4_result_v0nyk0.webp"
-                      className="block w-full h-full bg-grey-dark bg-no-repeat bg-center bg-cover"
+                      className="bg-cover bg-center"
                     />
                   </div>
                   <div className="w-full sm:w-1/2 md:w-full h-48 xl:h-64 px-2">
