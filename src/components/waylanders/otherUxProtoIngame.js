@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 
 export const UxPreviousIngame = () => {
-  const settings = {
+  const waylandersOther = {
     dots: false,
     infinite: true,
     speed: 1500,
@@ -18,7 +18,7 @@ export const UxPreviousIngame = () => {
   return (
     <div className="flex items-center justify-center mx-14 mt-14">
       <div className="container">
-        <Slider {...settings}>
+        <Slider {...waylandersOther}>
           <div className="w-80 mx-auto">
             <img
               className="mx-auto"

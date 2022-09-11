@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 
 export const HudCombat = () => {
-  const settings = {
+  const waylandersHUDCarousel = {
     dots: false,
     infinite: true,
     speed: 1500,
@@ -36,7 +36,7 @@ export const HudCombat = () => {
       </p> */}
           </div>
 
-          <Slider {...settings} className="...">
+          <Slider {...waylandersHUDCarousel} >
           <div className="w-80 mx-auto">
               <img
                 className="mx-auto"

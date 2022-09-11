@@ -2,15 +2,14 @@ import React from "react";
 import Slider from "react-slick";
 
 export const Fujiyama = () => {
-  const settings = {
+  const carouselFujiyama = {
     dots: false,
     infinite: true,
     speed: 1500,
     autoplaySpeed: 3000,
     autoplay: true,
-    fade: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
+    slidesToShow: 2,
+    slidesToScroll: 2,
     lazyLoad: true,
     pauseOnHover: true,
   };
@@ -19,30 +18,9 @@ export const Fujiyama = () => {
     <div className="container mx-auto">
       <div className="flex items-center justify-center mx-14 py-14">
         <div className="container">
-          <div className="row">
+          <div className="flex justify-center">
             <img src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334229/jorgepardo.dev/fujiyama/espa%C3%B1a/2c1aed110586413.5ff1dff1bada8_result_vvv0ol.webp" />
-            {/* <p className="text-waylanders">
-              I'm baby banjo taxidermy you probably haven't heard of them
-              chillwave bruh yr, poke 3 wolf moon. Retro aesthetic trust fund
-              fanny pack direct trade, literally bitters lyft master cleanse
-              celiac godard. Subway tile vegan blue bottle, sartorial literally
-              venmo raw denim bespoke small batch man braid meggings typewriter.
-              Irony small batch mixtape.
-              <br />
-              Hella iPhone bruh umami poutine pug. Vinyl cold-pressed everyday
-              carry green juice prism, food truck enamel pin gatekeep health
-              goth. 90's portland DIY gochujang dreamcatcher tacos organic. Hot
-              chicken crucifix yr palo santo tacos waistcoat.
-            </p> */}
           </div>
-
-          {/* <div>
-            <img src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334229/jorgepardo.dev/fujiyama/espa%C3%B1a/3f4acf110586413.5ff1ccb25e9a4_result_gxzgkn.webp" />
-            <img src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334228/jorgepardo.dev/fujiyama/espa%C3%B1a/1c6347110586413.5ff1cd56e0d8f_result_le4q1l.webp" />
-            <img src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334230/jorgepardo.dev/fujiyama/espa%C3%B1a/21f047110586413.5ff1cc119f9fc_result_txcib1.webp" />
-            <img src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334231/jorgepardo.dev/fujiyama/espa%C3%B1a/075712110586413.5ff1cc11a0153_result_ci0jrd.webp" />
-            <img src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334232/jorgepardo.dev/fujiyama/espa%C3%B1a/e9f829110586413.5ff1cdc838fad_result_axpk2d.webp" />
-          </div> */}
 
           <div className="container mx-auto p-8">
             <div className="flex flex-row flex-wrap -mx-2">
@@ -57,7 +35,7 @@ export const Fujiyama = () => {
                   <div className="w-full sm:w-1/2 md:w-full h-48 xl:h-64 mb-4 sm:mb-0 md:mb-4 px-2">
                     <img
                       src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334231/jorgepardo.dev/fujiyama/espa%C3%B1a/bc7dd1110586413.5ff1c852329a4_result_v0nyk0.webp"
-                      className="bg-cover bg-center"
+                      className="block w-full h-full bg-grey-dark bg-no-repeat bg-center bg-cover"
                     />
                   </div>
                   <div className="w-full sm:w-1/2 md:w-full h-48 xl:h-64 px-2">
@@ -68,38 +46,43 @@ export const Fujiyama = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-full sm:w-1/3 h-32 md:h-56 mb-4 sm:mb-0 px-2">
+              <div className="flex">
                 <img
                   src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334231/jorgepardo.dev/fujiyama/espa%C3%B1a/945f6c110586413.5ff1c852310dc_result_szqlzp.webp"
-                  className="block w-full h-full bg-grey-dark bg-no-repeat bg-center bg-cover"
+                  className="mx-auto w-1/3"
                 />
-              </div>
-              <div className="w-full sm:w-1/3 h-32 md:h-56 mb-4 sm:mb-0 px-2">
                 <img
                   src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334230/jorgepardo.dev/fujiyama/espa%C3%B1a/10cd8f110586413.5ff1c85232f19_result_tsqb4e.webp"
-                  className="block w-full h-full bg-grey-dark bg-no-repeat bg-center bg-cover"
+                  className="mx-auto w-1/3"
                 />
-              </div>
-              <div className="w-full sm:w-1/3 h-32 md:h-56 px-2">
                 <img
                   src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334229/jorgepardo.dev/fujiyama/espa%C3%B1a/1c099f110586413.5ff1c85231693_result_boeqld.webp"
-                  className="block w-full h-full bg-grey-dark bg-no-repeat bg-center bg-cover"
+                  className="mx-auto w-1/3"
                 />
               </div>
             </div>
           </div>
-          
-          <div>
+
+          <div className="mb-8 flex justify-center">
             <img src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334229/jorgepardo.dev/fujiyama/espa%C3%B1a/3f4acf110586413.5ff1ccb25e9a4_result_gxzgkn.webp" />
           </div>
 
-          <div className="flex">
-            <img className="w-1/3" src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334232/jorgepardo.dev/fujiyama/espa%C3%B1a/f4ce9b110586413.5ff1c8523089c_result_pu3kbg.webp" />
-            <img className="w-1/3" src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334230/jorgepardo.dev/fujiyama/espa%C3%B1a/8a9be3110586413.5ff1c852300e8_result_rndcqe.webp" />
-            <img className="w-1/3" src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334229/jorgepardo.dev/fujiyama/espa%C3%B1a/4b29c5110586413.5ff1c85231da9_result_rs33ns.webp" />
+          <div className="flex mb-8">
+            <img
+              className="w-1/3"
+              src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334232/jorgepardo.dev/fujiyama/espa%C3%B1a/f4ce9b110586413.5ff1c8523089c_result_pu3kbg.webp"
+            />
+            <img
+              className="w-1/3"
+              src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334230/jorgepardo.dev/fujiyama/espa%C3%B1a/8a9be3110586413.5ff1c852300e8_result_rndcqe.webp"
+            />
+            <img
+              className="w-1/3"
+              src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334229/jorgepardo.dev/fujiyama/espa%C3%B1a/4b29c5110586413.5ff1c85231da9_result_rs33ns.webp"
+            />
           </div>
 
-          <Slider {...settings}>
+          <Slider {...carouselFujiyama}>
             <div className="w-80 mx-auto">
               <img
                 className="mx-auto"
@@ -144,30 +127,30 @@ export const Fujiyama = () => {
             </div>
           </Slider>
 
-          <div>
+          <div className="mt-2 mb-8 flex justify-center">
             <img src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334228/jorgepardo.dev/fujiyama/espa%C3%B1a/1c6347110586413.5ff1cd56e0d8f_result_le4q1l.webp" />
           </div>
 
-          <div className="flex">
+          <div className="flex justify-center mx-auto">
             <img
-              className="w-1/3"
+              className="w-1/3 p-8"
               src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334232/jorgepardo.dev/fujiyama/espa%C3%B1a/d8be62110586413.5ff1ca9ac8423_result_wzjqbw.webp"
             />
             <img
-              className="w-1/3"
+              className="w-1/3 p-8"
               src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334230/jorgepardo.dev/fujiyama/espa%C3%B1a/9bd5a3110586413.5ff1c990dd1ef_result_bmnfas.webp"
             />
             <img
-              className="w-1/3"
+              className="w-1/3 p-8"
               src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334229/jorgepardo.dev/fujiyama/espa%C3%B1a/0ec405110586413.5ff1c990dca1b_result_yg0pot.webp"
             />
           </div>
 
-          <div>
+          <div className="mb-8 mt-8">
             <img src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334230/jorgepardo.dev/fujiyama/espa%C3%B1a/21f047110586413.5ff1cc119f9fc_result_txcib1.webp" />
           </div>
 
-          <Slider {...settings}>
+          <Slider {...carouselFujiyama}>
             <div className="w-80 mx-auto">
               <img
                 className="mx-auto"
@@ -246,10 +229,9 @@ export const Fujiyama = () => {
               />
             </div>
           </Slider>
-          <div>
+          <div className="mt-8 flex justify-center">
             <img src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334232/jorgepardo.dev/fujiyama/espa%C3%B1a/e9f829110586413.5ff1cdc838fad_result_axpk2d.webp" />
           </div>
-          <div>Falta meter los 2 menus de venezuela, ver el scroll antes</div>
         </div>
       </div>
     </div>

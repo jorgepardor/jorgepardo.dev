@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 
 export const CharCreator = () => {
-  const settings = {
+  const waylandersCharCarousel = {
     dots: false,
     infinite: true,
     speed: 1500,
@@ -36,7 +36,7 @@ export const CharCreator = () => {
             </p> */}
           </div>
 
-          <Slider {...settings}>
+          <Slider {...waylandersCharCarousel}>
             <div className="w-80 mx-auto">
               <img
                 className="mx-auto"

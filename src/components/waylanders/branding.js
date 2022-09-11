@@ -2,18 +2,6 @@ import React from "react";
 import Slider from "react-slick";
 
 export const Branding = () => {
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 1500,
-    autoplaySpeed: 3000,
-    autoplay: true,
-    fade: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    lazyLoad: true,
-    pauseOnHover: true,
-  };
 
   return (
     <div className="flex items-center justify-center mx-14 pt-14">

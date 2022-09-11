@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 
 export const GraphicElements = () => {
-  const settings = {
+  const waylandersGraphic = {
     dots: false,
     infinite: true,
     speed: 1500,
@@ -42,7 +42,7 @@ export const GraphicElements = () => {
             />
           </div>
         </div>
-        <Slider {...settings}>
+        <Slider {...waylandersGraphic}>
           <div className="w-80 mx-auto">
             <img
               className="mx-auto"

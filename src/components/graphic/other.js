@@ -2,70 +2,47 @@ import React from "react";
 import Slider from "react-slick";
 
 export const Other = () => {
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 1500,
-    autoplaySpeed: 3000,
-    autoplay: true,
-    fade: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    lazyLoad: true,
-    pauseOnHover: true,
-  };
-
   return (
     <div className="container mx-auto">
       <div className="flex items-center justify-center mx-14 py-14">
         <div className="container">
           <div className="row">
-            <p className="subtitle-waylanders mb-8">Fujiyama Sushi Bar</p>
-            {/* <p className="text-waylanders">
-              I'm baby banjo taxidermy you probably haven't heard of them
-              chillwave bruh yr, poke 3 wolf moon. Retro aesthetic trust fund
-              fanny pack direct trade, literally bitters lyft master cleanse
-              celiac godard. Subway tile vegan blue bottle, sartorial literally
-              venmo raw denim bespoke small batch man braid meggings typewriter.
-              Irony small batch mixtape.
-              <br />
-              Hella iPhone bruh umami poutine pug. Vinyl cold-pressed everyday
-              carry green juice prism, food truck enamel pin gatekeep health
-              goth. 90's portland DIY gochujang dreamcatcher tacos organic. Hot
-              chicken crucifix yr palo santo tacos waistcoat.
-            </p> */}
+            <img
+              src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334662/jorgepardo.dev/design/dada/c13ae137783115.574c823b62f40_d3gkr5.jpg"
+              className="mx-auto"
+            />
           </div>
+          {/* <div className="grid grid-cols-2 mb-8">
+            <img
+              src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334661/jorgepardo.dev/design/dada/b0dbdd37783115.574c823b63497_xu6mvq.jpg"
+              className="mx-auto"
+            />{" "}
+            <img
+              src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334662/jorgepardo.dev/design/dada/b0dbdd37783115.574c823b63497_1_ihljfw.jpg"
+              className="mx-auto"
+            />
+          </div> */}
 
-          <Slider {...settings}>
-            <div className="w-80 mx-auto">
-              <img
-                className="mx-auto"
-                src="https://res.cloudinary.com/jorgepardor/image/upload/v1660498694/jorgepardo.dev/waylanders/uiux/creator1_result_bvv7mh.webp"
-                alt="Imagen de variedades"
-              />
-            </div>
-            <div>
-              <img
-                className="mx-auto"
-                src="https://res.cloudinary.com/jorgepardor/image/upload/v1660498694/jorgepardo.dev/waylanders/uiux/creator2_result_spconx.webp"
-                alt="Imagen de variedades"
-              />
-            </div>
-            <div className="w-80 mx-auto">
-              <img
-                className="mx-auto"
-                src="https://res.cloudinary.com/jorgepardor/image/upload/v1660498694/jorgepardo.dev/waylanders/uiux/creator3_result_ah0bun.webp"
-                alt="Imagen de variedades"
-              />
-            </div>
-            <div>
-              <img
-                className="mx-auto"
-                src="https://res.cloudinary.com/jorgepardor/image/upload/v1660498694/jorgepardo.dev/waylanders/uiux/creator4_result_z4kwme.webp"
-                alt="Imagen de variedades"
-              />
-            </div>
-          </Slider>
+          <div className="grid grid-cols-2 mb-8">
+            <img
+              src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334661/jorgepardo.dev/design/dada/9c21c237783115.574cb670bd305_ejddw3.jpg"
+              className="mx-auto"
+            />{" "}
+            <img
+              src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334661/jorgepardo.dev/design/dada/69ddc437783115.574cb670bd977_ngrtmz.jpg"
+              className="mx-auto"
+            />
+          </div>
+          <div className="row">
+            <img
+              src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334662/jorgepardo.dev/design/dada/28733e37783115.574c807b48aa8_a8huql.jpg"
+              className="mx-auto mb-8"
+            />
+            <img
+              src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334663/jorgepardo.dev/design/dada/117ee237783115.574c823b63a92_1_poskz8.jpg"
+              className="mx-auto w-5/6"
+            />
+          </div>
         </div>
       </div>
     </div>

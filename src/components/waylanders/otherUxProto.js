@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 
 export const UxPreviousMain = () => {
-  const settings = {
+  const uxPrototypes = {
     dots: false,
     infinite: true,
     speed: 1500,
@@ -36,7 +36,7 @@ export const UxPreviousMain = () => {
 </p> */}
           </div>
 
-          <Slider {...settings}>
+          <Slider {...uxPrototypes}>
             <div className="w-80 mx-auto">
               <img
                 className="mx-auto"
