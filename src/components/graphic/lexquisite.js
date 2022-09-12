@@ -34,7 +34,10 @@ export const Lexquisite = () => {
       <div className="flex items-center justify-center mx-14 py-14">
         <div className="container">
           <div className="row">
-            <img src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334441/jorgepardo.dev/design/lexquisiteespa%C3%B1a/a762d1110641393.5ff2fe0b946d4_result_y3ytdk.webp" className="mx-auto"/>
+            <img
+              src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334441/jorgepardo.dev/design/lexquisiteespa%C3%B1a/a762d1110641393.5ff2fe0b946d4_result_y3ytdk.webp"
+              className="mx-auto"
+            />
           </div>
 
           <div className="grid grid-cols-3 mb-8">
@@ -69,7 +72,7 @@ export const Lexquisite = () => {
                 alt="Imagen de variedades"
               />
             </div>
-            <div className="w-80 mx-auto"> 
+            <div className="w-80 mx-auto">
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334443/jorgepardo.dev/design/lexquisiteespa%C3%B1a/d83481110641393.5ff2fe0a5293e_result_fjwolm.webp"
@@ -78,7 +81,7 @@ export const Lexquisite = () => {
             </div>
           </Slider>
 
-          <hr className="mb-8"/>
+          <hr className="mb-8" />
 
           <div className="mb-8 flex align-middle">
             <img src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334485/jorgepardo.dev/design/lexquisitevenezuela/40c31819197009.562d66352a5cc_1__result_wcw35b.webp" />
@@ -86,7 +89,7 @@ export const Lexquisite = () => {
 
           <div className="grid grid-cols-3">
             <div className="col-span-2">
-              <img src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334485/jorgepardo.dev/design/lexquisitevenezuela/406a5419197009.562d665de90d0_result_jmc7b0.webp"/>
+              <img src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334485/jorgepardo.dev/design/lexquisitevenezuela/406a5419197009.562d665de90d0_result_jmc7b0.webp" />
             </div>
             <div className="...">
               <Slider {...bookletLexquisite}>
@@ -148,10 +151,33 @@ export const Lexquisite = () => {
                 </div>
               </Slider>
             </div>
-            <div>
-            {/* <img src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334486/jorgepardo.dev/design/lexquisitevenezuela/fab08419197009.562d6670b6d48_result_yvfetw.webp" /> */}
-            {/* <img src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334486/jorgepardo.dev/design/lexquisitevenezuela/b566a819197009.562d6610b457b_result_ys4lyx.webp" /> */}
-            </div>
+          </div>
+
+          <hr className=" mt-12 mb-8" />
+          <div className="flex justify-end">
+            <p class="text-gray-500 dark:text-gray-400">
+              Ver mas en{"  "}
+              <a
+                href="https://www.behance.net/gallery/110641393/LExquisite-Grill-Ribs"
+                class="inline-flex items-center font-medium text-DarkGR dark:text-DarkGR hover:underline"
+                target="_blank"
+              >
+                Behance
+                <svg
+                  aria-hidden="true"
+                  class="ml-1 w-5 h-5"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+              </a>
+            </p>
           </div>
         </div>
       </div>
