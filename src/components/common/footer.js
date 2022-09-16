@@ -1,6 +1,11 @@
 import React from "react";
+import { useLocation } from "react-router-dom";
 
-export const Footer = () => {
+
+export const Footer = ({ path }) => {
+  const { pathname } = useLocation();
+  console.log(pathname);
+  if (pathname === "/") return null;
   return (
     <footer className="p-4 md:flex md:items-center md:justify-between md:p-6 ">
       <div className="md:w-1/2 mx-auto text-center text-sm font-Ral">
