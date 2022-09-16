@@ -1,17 +1,28 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import App from "./App";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Navbar } from "./components/common/navbar";
+import { Footer } from "./components/common/footer";
+import { Waylanders } from "./pages/waylanders";
+import { Graphic } from "./pages/graphic";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <div className="flex flex-col h-screen">
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<App />} />
+      </Routes>
+      <Navbar />
+      <Routes>
+        <Route path="/waylanders" element={<Waylanders />} />
+        <Route path="/graphicdesign" element={<Graphic />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
+  </div>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
