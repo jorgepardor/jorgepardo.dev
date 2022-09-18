@@ -27,13 +27,16 @@ export const Navbar = () => {
 
   const [menuToggle, setMenuToggle] = useState(false);
 
+
+  // const darkNav = document.getElementById('mainNav')
   const { pathname } = useLocation();
   console.log(pathname);
   if (pathname === "/") return null;
+  // else if (pathname === "/thewaylanders") 
 
   return (
-    <div className="flex justify-around items-center py-5 ">
-      <a href="/" className="w-1/4 text-xl text-DarkGR font-Ral text-center">
+    <div className="flex justify-around items-center py-5 bg-TW-bg-dark" id="mainNav">
+      <a href="/" className="w-1/4 text-4xl text-DarkGR font-Ral text-center">
         JORGEPARDO.DEV
       </a>
       <nav className="w-1/4mx-auto cl-effect-18">
