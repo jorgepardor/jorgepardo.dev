@@ -1,57 +1,73 @@
-import React, { useState } from "react";
-import { Waylanders } from "../../pages/waylanders";
-
-const active_class = "cl-effect-18";
-const deactive_class = "cl-effect-18";
-
-const changeTab = (e) => {
-  let id = e.target.getAttribute("data-tabs-target");
-
-  document
-    .querySelectorAll("#mainContent > div")
-    .forEach((el) => el.classList.add("hidden"));
-
-  document.querySelector(id).classList.remove("hidden");
-
-  // Desactiva los botones que no están en foco en la navegación por tabs.
-
-  document
-    .querySelectorAll(".tab")
-    .forEach((element) => (element.className = deactive_class));
-
-  // Activa los botones al activarse en la navegación por tabs.
-
-  document.querySelector(`#${e.target.id}`).className = active_class;
-};
+import React from "react";
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 export const Navbar = () => {
-  const [menuToggle, setMenuToggle] = useState(false);
+  const location = useLocation();
+  useEffect(() => {
+    const currentPath = location.pathname;
+    // const searchParams = new URLSearchParams(location.search);
+
+    function darkNavBG() {
+      var element = document.getElementById("mainNav");
+      element.classList.add("waylanders-navbar");
+    }
+    function undodarkNavBG() {
+      var element = document.getElementById("mainNav");
+      element.classList.remove("waylanders-navbar");
+    }
+
+    function darkFooterBG() {
+      var element = document.getElementById("mainFooter");
+      element.classList.add("waylanders-navbar");
+    }
+    function undodarkFooterBG() {
+      var element = document.getElementById("mainFooter");
+      element.classList.remove("waylanders-navbar");
+    }
+
+
+    if (location.pathname === "/waylanders") {
+      darkNavBG();
+      darkFooterBG();
+
+    }
+    if ((location.pathname =! "/waylanders")) {
+      undodarkNavBG();
+      undodarkFooterBG();
+
+    }
+  }, [location]);
+
+  const { pathname } = useLocation();
+  if (location.pathname === "/") return null;
 
   return (
-    <div className="flex justify-center items-center pt-5">
-      <h1 className="w-full text-xl text-DarkGR font-Ral text-center">
+    <div className="flex justify-around items-center py-5" id="mainNav">
+      <a href="/" className="w-1/4 text-4xl text-DarkGR font-Ral text-center">
         JORGEPARDO.DEV
-      </h1>
-
-      <section className="w-full">
-        <nav className="mx-auto cl-effect-18">
-          <a href="/graphicdesign" className="font-Ral text-sm" data-hover="Graphic">
-            Graphic
-          </a>
-          <a href="/waylanders" className="font-Ral text-sm" data-hover="UX/UI">
-            UI/UX
-          </a>
-          {/* <a href="..." className="font-Ral" data-hover="Code">
+      </a>
+      <nav className="w-1/4mx-auto cl-effect-18">
+        <a
+          href="/graphicdesign"
+          className="font-Ral text-sm"
+          data-hover="Graphic"
+        >
+          Graphic
+        </a>
+        <a href="/waylanders" className="font-Ral text-sm" data-hover="UX/UI">
+          UI/UX
+        </a>
+        {/* <a href="..." className="font-Ral" data-hover="Code">
             Code
           </a> */}
-          {/* <a href="..." className="font-Ral" data-hover="Other">
+        {/* <a href="..." className="font-Ral" data-hover="Other">
             Other
           </a> */}
-          <a href="..." className="font-Ral text-sm" data-hover="Profile">
-            Profile
-          </a>
-        </nav>
-      </section>
+        <a href="..." className="font-Ral text-sm" data-hover="Profile">
+          Profile
+        </a>
+      </nav>
     </div>
   );
 };
