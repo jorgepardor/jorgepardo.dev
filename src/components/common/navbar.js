@@ -1,41 +1,49 @@
-import React, { useState } from "react";
+import React from "react";
 import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 export const Navbar = () => {
-  const changeTab = (e) => {
-    let id = e.target.getAttribute("data-tabs-target");
+  const location = useLocation();
+  useEffect(() => {
+    const currentPath = location.pathname;
+    // const searchParams = new URLSearchParams(location.search);
 
-    document
-      .querySelectorAll("#mainContent > div")
-      .forEach((el) => el.classList.add("hidden"));
+    function darkNavBG() {
+      var element = document.getElementById("mainNav");
+      element.classList.add("waylanders-navbar");
+    }
+    function undodarkNavBG() {
+      var element = document.getElementById("mainNav");
+      element.classList.remove("waylanders-navbar");
+    }
 
-    document.querySelector(id).classList.remove("hidden");
-
-    // Desactiva los botones que no están en foco en la navegación por tabs.
-
-    document
-      .querySelectorAll(".tab")
-      .forEach((element) => (element.className = deactive_class));
-
-    // Activa los botones al activarse en la navegación por tabs.
-
-    document.querySelector(`#${e.target.id}`).className = active_class;
-  };
-
-  const active_class = "cl-effect-18";
-  const deactive_class = "cl-effect-18";
-
-  const [menuToggle, setMenuToggle] = useState(false);
+    function darkFooterBG() {
+      var element = document.getElementById("mainFooter");
+      element.classList.add("waylanders-navbar");
+    }
+    function undodarkFooterBG() {
+      var element = document.getElementById("mainFooter");
+      element.classList.remove("waylanders-navbar");
+    }
 
 
-  // const darkNav = document.getElementById('mainNav')
+    if (location.pathname === "/waylanders") {
+      darkNavBG();
+      darkFooterBG();
+
+    }
+    if ((location.pathname =! "/waylanders")) {
+      undodarkNavBG();
+      undodarkFooterBG();
+
+    }
+  }, [location]);
+
   const { pathname } = useLocation();
-  console.log(pathname);
-  if (pathname === "/") return null;
-  // else if (pathname === "/thewaylanders") 
+  if (location.pathname === "/") return null;
 
   return (
-    <div className="flex justify-around items-center py-5 bg-TW-bg-dark" id="mainNav">
+    <div className="flex justify-around items-center py-5" id="mainNav">
       <a href="/" className="w-1/4 text-4xl text-DarkGR font-Ral text-center">
         JORGEPARDO.DEV
       </a>
