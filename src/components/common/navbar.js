@@ -26,16 +26,13 @@ export const Navbar = () => {
       element.classList.remove("waylanders-navbar");
     }
 
-
     if (location.pathname === "/waylanders") {
       darkNavBG();
       darkFooterBG();
-
     }
-    if ((location.pathname =! "/waylanders")) {
+    if ((location.pathname = !"/waylanders")) {
       undodarkNavBG();
       undodarkFooterBG();
-
     }
   }, [location]);
 
@@ -64,6 +61,13 @@ export const Navbar = () => {
         {/* <a href="..." className="font-Ral" data-hover="Other">
             Other
           </a> */}
+        <a
+          href="https://flickr.com/photos/jorgeluis/"
+          className="font-Ral text-sm"
+          data-hover="Photo"
+        >
+          Photo
+        </a>
         <a href="..." className="font-Ral text-sm" data-hover="Profile">
           Profile
         </a>

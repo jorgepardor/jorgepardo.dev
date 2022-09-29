@@ -1,5 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
+import { Heading } from "../common/heading";
 
 export const Other = () => {
   return (
@@ -45,6 +46,7 @@ export const Other = () => {
           </div>
         </div>
       </div>
+      {/* <Heading /> */}
     </div>
   );
 };
