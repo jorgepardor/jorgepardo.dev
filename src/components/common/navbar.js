@@ -1,6 +1,7 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import { Heading } from "./heading";
 
 export const Navbar = () => {
   const location = useLocation();
@@ -40,9 +41,9 @@ export const Navbar = () => {
   if (location.pathname === "/") return null;
 
   return (
-    <div className="flex justify-around items-center py-5" id="mainNav">
+    <div className="flex justify-around items-center py-3" id="mainNav">
       <a href="/" className="w-1/4 text-4xl text-DarkGR font-Ral text-center">
-        JORGEPARDO.DEV
+        <Heading />
       </a>
       <nav className="w-1/4mx-auto cl-effect-18">
         <a

@@ -24,7 +24,8 @@ module.exports = {
         Sta: ['Staatliches'],
         Ral: ['Raleway'],
         Cin: ['Cinzel'],
-        Fir: ['Fira Sans']
+        Fir: ['Fira Sans'],
+        Sha: ['Shadows Into Light']
       },
     },
   },

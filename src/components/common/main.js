@@ -1,6 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 import { Footer } from "./footer";
+import { Heading } from "./heading";
 
 export const Main = () => {
   const mainCarousel = {
@@ -20,11 +21,13 @@ export const Main = () => {
     <section className=" bg-TW-bg-dark">
       <header className="header-container">
         <div className="text-center">
-          <h1 className="main-title font-Ral ">
+          {/* <h1 className="main-title font-Ral ">
             JORGEPARDO.DEV
-          </h1>
+          </h1> */}
 
-          <nav className="flex flex-wrap mt-8 text-center gap-1 cl-effect-18">
+          <Heading />
+
+          <nav className="flex flex-wrap mt-5 text-center gap-1 cl-effect-18">
             <a
               href="/graphicdesign"
               className="font-Ral text-sm sm:text-l"
@@ -58,7 +61,7 @@ export const Main = () => {
             <a
               href="/assets/Elizabeth Lara Gonzalez.pdf"
               download
-              className="font-Ral text-sm  mr-4 hover:text-DarkPk md:mr-6"
+              className="font-Ral text-sm  mr-4 text-gray-500 hover:text-DarkPk md:mr-6"
               target="_blank"
               rel="noreferrer"
             >
@@ -68,7 +71,7 @@ export const Main = () => {
           <li>
             <a
               href="https://www.behance.net/jorgepardo"
-              className="font-Ral text-sm mr-4 hover:text-DarkPk md:mr-6"
+              className="font-Ral text-sm mr-4 text-gray-500 hover:text-DarkPk md:mr-6"
               target="_blank"
               rel="noreferrer"
             >
@@ -78,7 +81,7 @@ export const Main = () => {
           <li>
             <a
               href="https://www.linkedin.com/in/jorgeluispardo/"
-              className="font-Ral text-sm mr-4 hover:text-DarkPk md:mr-6"
+              className="font-Ral text-sm mr-4 text-gray-500 hover:text-DarkPk md:mr-6"
               target="_blank"
               rel="noreferrer"
             >
@@ -88,7 +91,7 @@ export const Main = () => {
           <li>
             <a
               href="mailto:hi@jorgepardo.dev"
-              className="font-Ral text-sm hover:text-DarkPk"
+              className="font-Ral text-sm text-gray-500 hover:text-DarkPk"
             >
               Contacto
             </a>
