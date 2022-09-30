@@ -20,27 +20,27 @@ export const Main = () => {
     <section className=" bg-TW-bg-dark">
       <header className="header-container">
         <div className="text-center">
-          <h1 className="text-5xl text-DarkGR font-Ral text-center sm:text-5xl">
+          <h1 className="main-title font-Ral ">
             JORGEPARDO.DEV
           </h1>
 
           <nav className="flex flex-wrap mt-8 text-center gap-1 cl-effect-18">
             <a
               href="/graphicdesign"
-              className="font-Ral"
+              className="font-Ral text-sm sm:text-l"
               data-hover="Graphic"
             >
               Graphic
             </a>
-            <a href="/waylanders" className="font-Ral" data-hover="Graphic">
+            <a href="/waylanders" className="font-Ral text-sm sm:text-l" data-hover="Graphic">
               UX/UI
             </a>
-            <a href="/graphicdesign" className="font-Ral" data-hover="Graphic">
+            <a href="/graphicdesign" className="font-Ral text-sm sm:text-l" data-hover="Graphic">
               Profile
             </a>
             <a
               href="https://flickr.com/photos/jorgeluis/"
-              className="font-Ral"
+              className="font-Ral text-sm sm:text-l"
               data-hover="Photo"
             >
               Photo
