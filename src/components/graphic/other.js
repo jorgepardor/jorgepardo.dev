@@ -46,7 +46,7 @@ export const Other = () => {
           </div>
         </div>
       </div>
-      {/* <Heading /> */}
+      <Heading />
     </div>
   );
 };
