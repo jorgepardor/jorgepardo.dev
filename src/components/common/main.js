@@ -1,5 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
+import { Footer } from "./footer";
 
 export const Main = () => {
   const mainCarousel = {
@@ -17,46 +18,83 @@ export const Main = () => {
 
   return (
     <section className=" bg-TW-bg-dark">
-        <header className="header-container">
-          <div className="max-w-xl text-center sm:text-left">
-            <h1 className="text-5xl text-DarkGR font-Ral text-center sm:text-5xl">
-              JORGEPARDO.DEV
-            </h1>
+      <header className="header-container">
+        <div className="text-center">
+          <h1 className="text-5xl text-DarkGR font-Ral text-center sm:text-5xl">
+            JORGEPARDO.DEV
+          </h1>
 
-            <nav className="flex flex-wrap mt-8 text-center gap-1 cl-effect-18">
-              <a
-                href="/graphicdesign"
-                className="font-Ral text-xl"
-                data-hover="Graphic"
-              >
-                Graphic
-              </a>
-              <a href="/waylanders" className="font-Ral" data-hover="Graphic">
-                UX/UI
-              </a>
-              <a
-                href="/graphicdesign"
-                className="font-Ral"
-                data-hover="Graphic"
-              >
-                Profile
-              </a>
-              <a
-                href="https://flickr.com/photos/jorgeluis/"
-                className="font-Ral"
-                data-hover="Photo"
-              >
-                Photo
-              </a>
-            </nav>
-          </div>
-        </header>
+          <nav className="flex flex-wrap mt-8 text-center gap-1 cl-effect-18">
+            <a
+              href="/graphicdesign"
+              className="font-Ral"
+              data-hover="Graphic"
+            >
+              Graphic
+            </a>
+            <a href="/waylanders" className="font-Ral" data-hover="Graphic">
+              UX/UI
+            </a>
+            <a href="/graphicdesign" className="font-Ral" data-hover="Graphic">
+              Profile
+            </a>
+            <a
+              href="https://flickr.com/photos/jorgeluis/"
+              className="font-Ral"
+              data-hover="Photo"
+            >
+              Photo
+            </a>
+          </nav>
+        </div>
+      </header>
 
       <div className="gradient-bg"></div>
 
-
-      {/* <div className="hidden z-10 sm:block sm:inset-0 sm:absolute sm:bg-gradient-to-r sm:from-TW-bg-dark sm:to-transparent"></div> */}
-      {/* <div className="hidden z-10 sm:block sm:inset-0 sm:absolute sm:bg-gradient-to-r sm:from-TW-bg-dark sm:to-transparent"></div> */}
+      <div className="main-footer">
+        <ul className="md:w-1/2 m-auto flex justify-center items-center mt-3  text-sm text-Light-gray dark:text-gray-400 sm:mt-0">
+         
+          <li>
+            <a
+              href="/assets/Elizabeth Lara Gonzalez.pdf"
+              download
+              className="font-Ral text-sm  mr-4 hover:text-DarkPk md:mr-6"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Currículo
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.behance.net/jorgepardo"
+              className="font-Ral text-sm mr-4 hover:text-DarkPk md:mr-6"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Behance
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/jorgeluispardo/"
+              className="font-Ral text-sm mr-4 hover:text-DarkPk md:mr-6"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn
+            </a>
+          </li>
+          <li>
+            <a
+              href="mailto:hi@jorgepardo.dev"
+              className="font-Ral text-sm hover:text-DarkPk"
+            >
+              Contacto
+            </a>
+          </li>
+        </ul>
+      </div>
 
       <Slider {...mainCarousel} className="carousel">
         <div className="...">
