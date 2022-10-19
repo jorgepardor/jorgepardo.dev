@@ -61,7 +61,7 @@ export const Main = () => {
             <a
               href="/assets/Elizabeth Lara Gonzalez.pdf"
               download
-              className="font-Ral text-sm  mr-4 text-gray-500 hover:text-DarkPk md:mr-6"
+              className="font-Ral text-sm  mr-4 text-gray-500 hover:text-DarkPk md:mx-3"
               target="_blank"
               rel="noreferrer"
             >
@@ -71,7 +71,7 @@ export const Main = () => {
           <li>
             <a
               href="https://www.behance.net/jorgepardo"
-              className="font-Ral text-sm mr-4 text-gray-500 hover:text-DarkPk md:mr-6"
+              className="font-Ral text-sm mr-4 text-gray-500 hover:text-DarkPk md:mx-3"
               target="_blank"
               rel="noreferrer"
             >
@@ -81,7 +81,7 @@ export const Main = () => {
           <li>
             <a
               href="https://www.linkedin.com/in/jorgeluispardo/"
-              className="font-Ral text-sm mr-4 text-gray-500 hover:text-DarkPk md:mr-6"
+              className="font-Ral text-sm mr-4 text-gray-500 hover:text-DarkPk md:mx-3"
               target="_blank"
               rel="noreferrer"
             >
@@ -91,7 +91,7 @@ export const Main = () => {
           <li>
             <a
               href="mailto:hi@jorgepardo.dev"
-              className="font-Ral text-sm text-gray-500 hover:text-DarkPk"
+              className="font-Ral text-sm text-gray-500 hover:text-DarkPk md:mx-3"
             >
               Contacto
             </a>
