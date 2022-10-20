@@ -1,6 +1,5 @@
 import React from "react";
 import Slider from "react-slick";
-import { Footer } from "./footer";
 import { Heading } from "./heading";
 
 export const Main = () => {
@@ -38,7 +37,7 @@ export const Main = () => {
             <a href="/waylanders" className="font-Ral text-sm sm:text-l" data-hover="Graphic">
               UX/UI
             </a>
-            <a href="/graphicdesign" className="font-Ral text-sm sm:text-l" data-hover="Graphic">
+            <a href="/profile" className="font-Ral text-sm sm:text-l" data-hover="Profile">
               Profile
             </a>
             <a
@@ -150,6 +149,7 @@ export const Main = () => {
           />
         </div>
       </Slider>
+
     </section>
   );
 };

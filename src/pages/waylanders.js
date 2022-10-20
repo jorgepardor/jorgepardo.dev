@@ -6,6 +6,7 @@ import { UxPreviousMain } from "../components/waylanders/otherUxProto";
 import { UxPreviousIngame } from "../components/waylanders/otherUxProtoIngame";
 import { GraphicElements } from "../components/waylanders/graphic";
 import { Branding } from "../components/waylanders/branding";
+import { Info } from "../components/common/info";
 
 const active_class = "btn-waylanders";
 const deactive_class = "btn-waylanders";
@@ -204,10 +205,6 @@ export const Waylanders = () => {
         </div>
       </div>
 
-      {/* UX Carousel */}
-      {/* 
-        <img src="https://res.cloudinary.com/jorgepardor/image/upload/v1660229617/jorgepardo.dev/waylanders/gifs/PuntaFlechaCarga_ozqsl4.gif" />
-        <img src="https://res.cloudinary.com/jorgepardor/image/upload/v1660410766/jorgepardo.dev/waylanders/kick/KICK_HEAD_main_features_qicxfm.webp" /> */}
     </section>
   );
 };

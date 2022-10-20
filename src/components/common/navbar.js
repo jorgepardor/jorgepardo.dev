@@ -7,17 +7,20 @@ export const Navbar = () => {
   const location = useLocation();
   useEffect(() => {
     const currentPath = location.pathname;
-    // const searchParams = new URLSearchParams(location.search);
 
     function darkNavBG() {
       var element = document.getElementById("mainNav");
+      console.log(element)
       element.classList.add("waylanders-navbar");
     }
     function undodarkNavBG() {
       var element = document.getElementById("mainNav");
       element.classList.remove("waylanders-navbar");
     }
-
+    function hideNavbar() {
+      var element = document.getElementById("mainNav");
+      element.classList.add("test");
+    }
     function darkFooterBG() {
       var element = document.getElementById("mainFooter");
       element.classList.add("waylanders-navbar");
@@ -26,19 +29,25 @@ export const Navbar = () => {
       var element = document.getElementById("mainFooter");
       element.classList.remove("waylanders-navbar");
     }
-
-    if (location.pathname === "/waylanders") {
+    function hideFooter() {
+      var element = document.getElementById("mainFooter");
+      element.classList.add("test");
+    }
+    console.log(location.pathname)
+    if (location.pathname === "/") {
+      hideNavbar();
+      hideFooter();
+    }
+    else if (location.pathname === "/waylanders" || location.pathname === "/profile") {
+      console.log("tuculo")
       darkNavBG();
       darkFooterBG();
     }
-    if ((location.pathname = !"/waylanders")) {
+    else {
       undodarkNavBG();
       undodarkFooterBG();
     }
   }, [location]);
-
-  const { pathname } = useLocation();
-  if (location.pathname === "/") return null;
 
   return (
     <div
@@ -63,12 +72,6 @@ export const Navbar = () => {
           <a href="/waylanders" className="font-Ral text-sm" data-hover="UX/UI">
             UI/UX
           </a>
-          {/* <a href="..." className="font-Ral" data-hover="Code">
-            Code
-          </a> */}
-          {/* <a href="..." className="font-Ral" data-hover="Other">
-            Other
-          </a> */}
           <a
             href="https://flickr.com/photos/jorgeluis/"
             className="font-Ral text-sm"
@@ -76,7 +79,7 @@ export const Navbar = () => {
           >
             Photo
           </a>
-          <a href="..." className="font-Ral text-sm" data-hover="Profile">
+          <a href="/profile" className="font-Ral text-sm" data-hover="Profile">
             Profile
           </a>
         </nav>
