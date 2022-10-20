@@ -18,7 +18,7 @@ export const Footer = () => {
           <a
             href="/assets/Elizabeth Lara Gonzalez.pdf"
             download
-            className="font-Ral text-sm  mr-4 hover:text-Yellow-custom md:mr-6"
+            className="font-Ral text-sm mr-4 text-gray-500 hover:text-DarkPk md:mr-6"
             target="_blank"
             rel="noreferrer"
           >
@@ -28,7 +28,7 @@ export const Footer = () => {
         <li>
           <a
             href="https://www.behance.net/jorgepardo"
-            className="font-Ral text-sm mr-4 hover:text-Yellow-custom md:mr-6"
+            className="font-Ral text-sm mr-4 text-gray-500 hover:text-DarkPk md:mr-6"
             target="_blank"
             rel="noreferrer"
           >
@@ -38,7 +38,7 @@ export const Footer = () => {
         <li>
           <a
             href="https://www.linkedin.com/in/jorgeluispardo/"
-            className="font-Ral text-sm mr-4 hover:text-Yellow-custom md:mr-6"
+            className="font-Ral text-sm mr-4 text-gray-500 hover:text-DarkPk md:mr-6"
             target="_blank"
             rel="noreferrer"
           >
@@ -46,7 +46,7 @@ export const Footer = () => {
           </a>
         </li>
         <li>
-          <a href="/contacto" className="font-Ral text-sm hover:text-Yellow-custom">
+          <a href="mailto:hi@jorgepardo.dev" className="font-Ral text-sm mr-4 text-gray-500 hover:text-DarkPk md:mr-6">
             Contacto
           </a>
         </li>

@@ -17,10 +17,10 @@ export const GraphicElements = () => {
   };
 
   return (
-    <div className="flex items-center justify-center mx-14 pt-14">
+    <div className="flex items-center justify-center md:mx-14 md:py-14">
       <div className="container">
         <div className="row flex justify-center">
-          <div className="col-12 col-md-4">
+          <div className="col-12 col-md-4 col-span-12">
             <img
               className="mx-auto"
               src="https://res.cloudinary.com/jorgepardor/image/upload/v1660431440/jorgepardo.dev/waylanders/graphic/main_feats_waylanders_02_xtq3g5.webp"
