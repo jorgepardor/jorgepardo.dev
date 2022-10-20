@@ -9,7 +9,7 @@ import { Navbar } from "./components/common/navbar";
 import { Footer } from "./components/common/footer";
 import { Waylanders } from "./pages/waylanders";
 import { Graphic } from "./pages/graphic";
-
+import { Profile } from "./pages/profile";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -21,6 +21,7 @@ root.render(
         <Route path="/" element={<App />} />
         <Route path="/waylanders" element={<Waylanders />} />
         <Route path="/graphicdesign" element={<Graphic />} />
+        <Route path="/profile" element={<Profile />} />
       </Routes>
       <Footer />
     </BrowserRouter>
