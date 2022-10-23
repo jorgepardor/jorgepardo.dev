@@ -455,3 +455,38 @@ nav a:focus {
 .test {
   display: none !important;
 }
+
+.xp-title {
+  color: rgb(242 102 139);
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+}
+
+.xp-duration {
+  /* color: #fff; */
+  font-size: 0.8rem;
+  padding-left: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.xp-company {
+  /* color: #fff; */
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.xp-description {
+  /* color: #fff; */
+  font-size: 1rem;
+  padding-top: 0.25rem;
+}
+
+.xp-box {
+  color: rgb(75 85 99);
+  transition: all 1s ease;
+  margin-bottom: 1.5rem;
+
+}
+.xp-box:hover {
+  color: #fff;
+}

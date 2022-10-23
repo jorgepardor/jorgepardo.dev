@@ -121,34 +121,32 @@ export const Info = () => {
         </div>
       </div>
       <div>
-        <h3>Lenguajes y habilidades</h3>
+        <h3 className="text-white text-center text-3xl py-8">Lenguajes y habilidades</h3>
       </div>
-      <div className="border-solid border-DarkGR border-2 rounded-2xl">
+      <div className="...">
         <div className="grid md:grid-cols-2 gap-1 p-4 mx-auto">
           <div className="col-span-1">
             <div className=" max-w-1/2">
               {skills.map((value, index) => {
                 return (
-                  <div>
                     <span
                       key={index}
                       class="px-4 py-2  my-1 mx-1 rounded-full text-gray-500  border-2  border-solid border-DarkGR hover:text-DarkPk text-sm flex align-center w-max cursor-pointer"
                     >
                       {value}
                     </span>
-                  </div>
                 );
               })}
             </div>
           </div>
-          <div className=" col-span-1">
+          <div className="col-span-1">
             {tech.map((value, index) => {
               return (
-                <div key={index}>
-                  <p class="px-4 py-2 mx-1 rounded-full text-gray-500 border-2 border-solid border-DarkGR hover:text-DarkPk text-sm flex align-center w-max cursor-pointer">
+   
+                  <p  key={index} class="px-4 py-2 mx-1 rounded-full text-gray-500 border-2 border-solid border-DarkGR hover:text-DarkPk text-sm flex align-center w-max cursor-pointer">
                     {value}
                   </p>
-                </div>
+       
               );
             })}
           </div>
@@ -156,52 +154,134 @@ export const Info = () => {
       </div>
 
       <div>
-        <h3>Trayectoria</h3>
+        <h3 className="text-white text-center text-3xl py-8">Trayectoria</h3>
       </div>
-      <div className="bg-DarkPk flex">
-        <div className="col-span-6">
-          <h4>Experiencia</h4>
-          <ul>
-            <li>
-              <h6>Titulo del curro</h6>
-              <p>Tiempo en el curro</p>
-              <p>Donde fue el curro</p>
-              <p>Descripcion del currentColor</p>
+      <div className="grid-rows-2 gap-8 flex">
+        <div className="w-1/2">
+          <h4 className="text-center font-Ral font-bold text-white pb-10">
+            Experiencia
+          </h4>
+          <ul className="px-8">
+            <li className="xp-box">
+              <h6 className="xp-title font-Ral">Desarrollador de front-end</h6>
+              <p className="xp-company font-Ral">Anjana Investments, S.L.</p>
+              <p className="xp-duration font-Ral">jun. 2022 - actualidad</p>
+              <p className="xp-description font-Ral">
+                Descripcion del currentColor
+              </p>
             </li>
-            <li>
-              <h6>Titulo del curro</h6>
-              <p>Tiempo en el curro</p>
-              <p>Donde fue el curro</p>
-              <p>Descripcion del currentColor</p>
+            <li className="xp-box">
+              <h6 className="xp-title font-Ral">UI/UX Designer</h6>
+              <p className="xp-company font-Ral">Gato Salvaje Studio</p>
+              <p className="xp-duration font-Ral">sept. 2017 - feb. 2022</p>
+              <p className="xp-description font-Ral">
+                Empecé a trabajar en Gato Studio en el inicio del proyecto The
+                Waylanders, un RPG inspirado en la saga Dragon Age y ambientado
+                en la época celta y medieval en el que controlas una party de 5
+                personajes. El juego actualmente se encuentra en fase de Acceso
+                Anticipado en Steam y se espera el lanzamiento final durante el
+                2021. En Gato he trabajado como lead del equipo de UI/UX para el
+                desarrollo de este proyecto desde el inicio del mismo.
+                <br />
+                <br />
+                Actualmente somos cuatro personas en el equipo, aunque durante
+                algunas fases del desarrollo hemos contado con colaboración de
+                parte del equipo de concept. Además de trabajar en UI/UX,
+                durante algunas fases del proyecto he participado en tareas del
+                equipo de Guion y Marketing, donde me han pedido que participe
+                en el diseño de piezas de arte promocionales del videojuego, las
+                campañas de Kickstarter del juego de mesa y el videojuego de The
+                Waylanders y el diseño de los stands utilizados en
+                presentaciones de la empresa en ferias. <br />
+                <br />
+                Acudí a las ediciones del año 2018 y 2019 de la Gamescom, en
+                Colonia, donde presentamos el proyecto ante el público. En la
+                edición de 2019 participé en la Devcom, donde hicimos una
+                presentación contando nuestra experiencia diseñando un RPG.
+              </p>
             </li>
-            <li>
-              <h6>Titulo del curro</h6>
-              <p>Tiempo en el curro</p>
-              <p>Donde fue el curro</p>
-              <p>Descripcion del currentColor</p>
+            <li className="xp-box">
+              <h6 className="xp-title font-Ral">Diseñador Gráfico Creativo</h6>
+              <p className="xp-company font-Ral">
+                Grupo Comercial Rodriguez Marchesini
+              </p>
+              <p className="xp-duration font-Ral">ago. 2004 - jun. 2015</p>
+              <p className="xp-description font-Ral">
+                Trabajé con ellos durante 10 años, inicialmente como asistente
+                administrativo. Posteriormente tuve la oportunidad de manejar la
+                imagen gráfica de las empresas que componen este grupo. Para
+                Fujiyama Sushi Bar trabajé en la elaboración de 3 ediciones del
+                menú, en el cual hice el trabajo de fotografía y diseño.
+                Posteriormente la empresa abrió una sede del restaurant en A
+                Coruña y realicé un rediseño completo de la marca para ello.
+                Durante varias campañas hice los artes gráficos (posters,
+                gigantografías, volantes) de las promociones de la temporada.
+                Participé también, junto a un programador, en el diseño de la
+                página web de la empresa. A L'Exquisite le hice el desarrollo de
+                la identidad corporativa integralmente, la cual se aplicó al
+                negocio desde su apertura.
+              </p>
             </li>
           </ul>
         </div>
-        <div className="col-span-6">
-          <h4>Educacion</h4>
-          <ul>
-            <li>
-              <h6>Titulo del curro</h6>
-              <p>Tiempo en el curro</p>
-              <p>Donde fue el curro</p>
-              <p>Descripcion del currentColor</p>
+        <div className="w-1/2">
+          <h4 className="text-center font-Ral font-bold text-white pb-10">
+            Educacion
+          </h4>
+          <ul className="px-8">
+            <li className="xp-box">
+              <h6 className="xp-title font-Ral">
+                Desarrollador de Software Full-Stack
+              </h6>
+              <p className="xp-company font-Ral">4Geeks Academy España</p>
+              <p className="xp-duration font-Ral">abr. 2022</p>
+              <p className="xp-description font-Ral">
+                Tecnologías aprendidas: - Control de versiones (Git) - HTML, CSS
+                y Bootstrap - Sass - DOM y Eventos - React.js con Flux - Hooks
+                de React - API Rest - Python - Flask - Bases de datos
+                relacionales: MySQL - SQLAlchemy - Despliegue con Heroku y
+                Vercel
+              </p>
             </li>
-            <li>
-              <h6>Titulo del curro</h6>
-              <p>Tiempo en el curro</p>
-              <p>Donde fue el curro</p>
-              <p>Descripcion del currentColor</p>
+            <li className="xp-box">
+              <h6 className="xp-title font-Ral">
+                Curso de Desarrollo de Videojuegos
+              </h6>
+              <p className="xp-company font-Ral">
+                Gato Salvaje SL / Concello da CoruñaGato Salvaje SL
+              </p>
+              <p className="xp-duration font-Ral">2016 - 2017</p>
+              <p className="xp-description font-Ral">
+                Participé en el 1er Curso de Desarrollo de Videojuegos,
+                impartido por Gato Salvaje, en el que impartieron los
+                fundamentos del desarrollo de desarrollo de videojuegos,
+                modelado y animación 3d, marketing y monetización de
+                aplicaciones. <br />
+                <br />
+                Al concluir el curso, inicié una fase de prácticas en el Vivero
+                de Empresas del Papagayo, donde participé en el desarrollo de
+                dos demos de videojuegos, en el departamento de UI/UX. De igual
+                forma, como parte del curso, inicié junto a otros compañeros una
+                startup de estudio de videojuegos (Wazzp Studio), con la cual
+                iniciamos un proyecto indie que aun esta en desarrollo.
+              </p>
             </li>
-            <li>
-              <h6>Titulo del curro</h6>
-              <p>Tiempo en el curro</p>
-              <p>Donde fue el curro</p>
-              <p>Descripcion del currentColor</p>
+            <li className="xp-box">
+              <h6 className="xp-title font-Ral">
+                Técnico Superior en Diseño Gráfico
+              </h6>
+              <p className="xp-company font-Ral">CU Monseñor de Talavera</p>
+              <p className="xp-duration font-Ral">ene 2010 - dic 2012</p>
+              <p className="xp-description font-Ral">
+                Estudié Diseño Gráfico en el Colegio Universitario Monseñor de
+                Talavera entre Enero de 2010 y Diciembre de 2012. Mi TFG
+                consistió en un rediseño de la identidad corporativa y de
+                comunicación de una línea aerea: Venezolana de Aviación. Dicho
+                trabajo fue presentado ante el jurado en Noviembre de 2012 y
+                obtuve una calificación de 19/20. En los enlaces hay una muestra
+                del Manual de Identidad Corporativa desarrollado para esa
+                presentación.
+              </p>
             </li>
           </ul>
         </div>
@@ -209,7 +289,7 @@ export const Info = () => {
       <div>
         <h3>Enlaces</h3>
         <div className="bg-DarkPk flex">
-          <div className=" col-span-4">
+          <div className="col-span-4">
             <img className="..." src="https://placehold.jp/150x150.png" />
           </div>
           <div className=" col-span-4">
