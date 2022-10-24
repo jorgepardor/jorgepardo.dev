@@ -485,8 +485,52 @@ nav a:focus {
   color: rgb(75 85 99);
   transition: all 1s ease;
   margin-bottom: 1.5rem;
-
 }
 .xp-box:hover {
   color: #fff;
+}
+
+.feats-box {
+  transition: all 1s ease;
+  margin-bottom: 1.5rem;
+  opacity: 30%;
+}
+
+.feats-title {
+  text-align: center;
+  color: rgb(242 102 139);
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+}
+
+.feats-description {
+  color: #fff;
+  text-align: center;
+  padding: 0 2rem 0 2rem;
+}
+
+.feats-box:hover {
+  color: #fff;
+  opacity: 100%;
+}
+.chips-container {
+  /* max-width: 50%; */
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.chips {
+  padding: 0.5rem 1rem;
+  margin: 0.25rem;
+  color: rgb(107 114 128);
+  border: 2px solid rgb(107 114 128);
+  font-size: 0.875rem;
+  /* display: flex;
+  align-items: center; */
+  min-width: fit-content;
+  height: 2.5rem;
+  border-radius: 9999px;
+  display: inline;
+  transition: all 1s ease;
 }
