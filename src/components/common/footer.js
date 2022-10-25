@@ -6,7 +6,7 @@ export const Footer = () => {
       className="p-4 md:flex md:items-center md:justify-between md:p-6"
       id="mainFooter"
     >
-      <div className="md:w-1/2 mx-auto text-center text-sm font-Ral">
+      <div className="md:w-1/2 mx-auto text-center text-gray-500 text-sm font-Ral">
         2022. All Rights Reserved.
       </div>
       <ul className="md:w-1/2 m-auto flex justify-center items-center mt-3  text-sm text-Light-gray dark:text-gray-400 sm:mt-0">
@@ -39,6 +39,16 @@ export const Footer = () => {
             rel="noreferrer"
           >
             LinkedIn
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/jorgepardor"
+            className="font-Ral text-sm mr-4 text-gray-500 hover:text-DarkPk md:mr-6"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Github
           </a>
         </li>
         <li>

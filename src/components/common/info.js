@@ -31,25 +31,23 @@ export const Info = () => {
 
   return (
     <section className="bg-TW-bg-dark container mx-auto">
-      <div className=" mt-44">
-        <h3 className=" text-center font-Sha text-DarkPk text-3xl">
-          ¿Quién soy?
-        </h3>
+      <div className="mt-44">
+        <h3 className="font-Sha profile-titles pb-24">¿Quién soy?</h3>
       </div>
       <div className="rounded-xl mx-auto mt-6 w-2/3">
         <div className="grid md:grid-cols-3 gap-4 p-4 mx-auto">
           <div className=" col-span-1">
             <img
-              src="https://res.cloudinary.com/jorgepardor/image/upload/v1651654050/14500640_10153702169466307_3937322170862077724_o_hidz7e.jpg"
-              className="px-4"
+              src="https://res.cloudinary.com/jorgepardor/image/upload/v1666709961/profile_xyk2ag.webp"
+              className="px-2"
             />
           </div>
-          <div className=" col-span-2 px-4">
+          <div className=" col-span-2">
             <h2 className=" text-white font-Ral text-3xl">
               Hola, soy Jorge Luis Pardo
             </h2>
             <h4 className="font-Ral text-lg text-DarkPk">
-              Diseñador UI/UX || Desarrollador frontend
+              Desarrollador frontend || Diseñador UI/UX || Diseñador Gráfico
             </h4>
             <p className=" text-white font-Ral text-md w-100 mt-5">
               Terminé mi carrera de diseño gráfico en 2012 y desde entonces he
@@ -74,30 +72,24 @@ export const Info = () => {
                   <a href="mailto:hi@jorgepardo.dev">hi@jorgepardo.dev</a>
                 </td>
               </tr>
-              <tr>
-                <td className=" text-white font-Ral text-md">Idiomas:</td>
-                <td className=" text-white font-Ral text-md">
-                  Español / Inglés
-                </td>
-              </tr>
             </table>
-            <button
+            <a
               type="button"
+              href="https://drive.google.com/file/d/1qn38wpkRzumUQ2sri8Wr7JvO1VhK4hZQ/view?usp=sharing"
+              target={"_blank"}
               class="mt-5 text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
             >
               Descarga mi CV
-            </button>
+            </a>
           </div>
         </div>
       </div>
 
-      <div className="mt-32">
-        <h3 className="text-center font-Sha text-DarkPk text-3xl my-8">
-          ¿Qué hago?
-        </h3>
+      <div className="mt-16">
+        <h3 className="font-Sha profile-titles pt-10 pb-32">¿Qué hago?</h3>
       </div>
       <div className="flex">
-        <div className="col-span-4">
+        <div className="col-span-4 w-1/3">
           <div className="d-flex justify-center opacity-50 hover:opacity-100 transition-all ease-in-out duration-1000">
             <img
               className="rounded-full w-3/4 py-3 mx-auto"
@@ -107,13 +99,13 @@ export const Info = () => {
           <h6 className="feats-title font-Ral text-xl">
             Desarrollo de frontend
           </h6>
-          <p className="feats-description">
+          {/* <p className="feats-description">
             VHS scenester selvage JOMO palo santo cloud bread, adaptogen
             sartorial taiyaki single-origin coffee
-          </p>
+          </p> */}
         </div>
 
-        <div className="col-span-4">
+        <div className="col-span-4 w-1/3">
           <div className="d-flex justify-center opacity-50 hover:opacity-100 transition-all ease-in-out duration-1000">
             <img
               className="rounded-full w-3/4 py-3 mx-auto"
@@ -121,13 +113,13 @@ export const Info = () => {
             />
           </div>
           <h6 className="feats-title font-Ral text-xl">Diseño UI/UX</h6>
-          <p className="feats-description">
+          {/* <p className="feats-description">
             VHS scenester selvage JOMO palo santo cloud bread, adaptogen
             sartorial taiyaki single-origin coffee
-          </p>
+          </p> */}
         </div>
 
-        <div className="col-span-4">
+        <div className="col-span-4 w-1/3">
           <div className="d-flex justify-center opacity-50 hover:opacity-100 transition-all ease-in-out duration-1000">
             <img
               className="rounded-full w-3/4 py-3 mx-auto"
@@ -135,21 +127,15 @@ export const Info = () => {
             />
           </div>
           <h6 className="feats-title font-Ral text-xl"> Diseño Gráfico</h6>
-          <p className="feats-description">
+          {/* <p className="feats-description">
             VHS scenester selvage JOMO palo santo cloud bread, adaptogen
             sartorial taiyaki single-origin coffee
-          </p>
+          </p> */}
         </div>
       </div>
 
-
-
-
-      
-      <div className="mt-32">
-        <h3 className="text-center font-Sha text-DarkPk text-3xl my-8">
-          ¿Cómo lo hago?
-        </h3>
+      <div className="mt-16">
+        <h3 className="font-Sha profile-titles pt-20 pb-32">¿Cómo lo hago?</h3>
       </div>
       <div className="...">
         <div className="p-4">
@@ -174,23 +160,51 @@ export const Info = () => {
         </div>
       </div>
 
-      <div className="mt-32">
-        <h3 className=" text-center font-Sha text-DarkPk text-3xl my-8">
+      <div className="mt-16">
+        <h3 className="font-Sha profile-titles pt-20 pb-32">
           ¿Dónde aprendí a hacerlo?
         </h3>
       </div>
-      <div className="grid-rows-2 gap-8 flex">
+      <div className="grid-rows-2 gap-8 flex pb-32">
         <div className="w-1/2">
-          <h4 className="text-center font-Ral font-bold text-white pb-10">
-            Experiencia
-          </h4>
+          <h4 className="font-Ral education-titles">Experiencia</h4>
           <ul className="px-8">
             <li className="xp-box">
               <h6 className="xp-title font-Ral">Desarrollador de front-end</h6>
               <p className="xp-company font-Ral">Anjana Investments, S.L.</p>
               <p className="xp-duration font-Ral">jun. 2022 - actualidad</p>
               <p className="xp-description font-Ral">
-                Descripcion del currentColor
+                En este trabajo estoy participando en el rediseño de{" "}
+                <a
+                  href="https://www.autingo.es/"
+                  className="font-bold hover:text-DarkPk transition-all ease-in-out duration-1000"
+                >
+                  Autingo.es
+                </a>
+                , un portal que ofrece packs de servicios para reparación y
+                mantenimiento de vehículos. Mi trabajo ha consistido en la
+                maquetación y desarrollo de las diferentes vistas que tiene el
+                site y su interacción con el backend. Paralelamente he cumplido
+                tareas de corrección de bugs y correcciones visuales en los
+                proyectos que tiene la empresa,{" "}
+                <a
+                  href="https://www.aurgi.com/"
+                  className="font-bold hover:text-DarkPk transition-all ease-in-out duration-1000"
+                >
+                  Aurgi.com
+                </a>{" "}
+                y{" "}
+                <a
+                  href="https://www.motortown.es/"
+                  className="font-bold hover:text-DarkPk transition-all ease-in-out duration-1000"
+                >
+                  Motortown.es
+                </a>
+                .
+                <br />
+                <br /> En todos los proyectos, he trabajado con Ruby y Ruby on
+                Rails, Javascript y he utilizado frameworks como Bootstrap y
+                SASS.
               </p>
             </li>
             <li className="xp-box">
@@ -198,13 +212,25 @@ export const Info = () => {
               <p className="xp-company font-Ral">Gato Salvaje Studio</p>
               <p className="xp-duration font-Ral">sept. 2017 - feb. 2022</p>
               <p className="xp-description font-Ral">
-                Empecé a trabajar en Gato Studio en el inicio del proyecto The
-                Waylanders, un RPG inspirado en la saga Dragon Age y ambientado
-                en la época celta y medieval en el que controlas una party de 5
-                personajes. El juego actualmente se encuentra en fase de Acceso
-                Anticipado en Steam y se espera el lanzamiento final durante el
-                2021. En Gato he trabajado como lead del equipo de UI/UX para el
-                desarrollo de este proyecto desde el inicio del mismo.
+                Empecé a trabajar en Gato Studio en el inicio del proyecto{" "}
+                <a
+                  href="http://thewaylanders.com/"
+                  className="font-bold hover:text-DarkPk transition-all ease-in-out duration-1000"
+                >
+                  The Waylanders
+                </a>
+                , un RPG inspirado en la saga Dragon Age y ambientado en la
+                época celta y medieval en el que controlas una party de 5
+                personajes. El juego ha sido lanzado en{" "}
+                <a
+                  href="https://store.steampowered.com/app/957710/The_Waylanders/"
+                  className="font-bold hover:text-DarkPk transition-all ease-in-out duration-1000"
+                >
+                  Steam
+                </a>{" "}
+                a principios de 2022. En Gato he trabajado como lead del equipo
+                de UI/UX para el desarrollo de este proyecto desde el inicio del
+                mismo.
                 <br />
                 <br />
                 Actualmente somos cuatro personas en el equipo, aunque durante
@@ -248,9 +274,7 @@ export const Info = () => {
           </ul>
         </div>
         <div className="w-1/2">
-          <h4 className="text-center font-Ral font-bold text-white pb-10">
-            Educacion
-          </h4>
+          <h4 className="font-Ral education-titles">Educación</h4>
           <ul className="px-8">
             <li className="xp-box">
               <h6 className="xp-title font-Ral">
@@ -259,11 +283,29 @@ export const Info = () => {
               <p className="xp-company font-Ral">4Geeks Academy España</p>
               <p className="xp-duration font-Ral">abr. 2022</p>
               <p className="xp-description font-Ral">
-                Tecnologías aprendidas: - Control de versiones (Git) - HTML, CSS
-                y Bootstrap - Sass - DOM y Eventos - React.js con Flux - Hooks
-                de React - API Rest - Python - Flask - Bases de datos
-                relacionales: MySQL - SQLAlchemy - Despliegue con Heroku y
-                Vercel
+                Completé el curso de Desarrollo Full Stack a principios de 2022
+                en el cual utilicé un set de las tecnologías mas utilizadas en
+                el desarrollo web actual. En cuanto a frontend, trabajé
+                inicialmente con HTML/CSS/Bootstrap para repasar los conceptos
+                básicos de maquetación y posteriormente una parte del curso fue
+                dedicada a aprender javascript y react, con el cual pude ahondar
+                en los hooks como herramientas para programar las funcionalidad
+                de una web y las interacciones con APIs. <br /><br />El módulo de backend
+                estuvo centrado en Python, con el cual desarrollé varios
+                ejercicios en los que tenía que diseñar una API que
+                proporcionara información al frontend. Hicimos ejercicios de
+                Data Modelling para ayudarnos a entender los principios del
+                manejo de datos con SQL. En este módulo utilizamos también SQL
+                Alchemy y Flask para diseñar APIs. <br/><br/>Como proyecto final decidimos
+                realizar un software de gestión de un gimnasio, Black Lion Box,
+                en el cual nos pidieron desarrollar el front y el backend de
+                forma que tanto usuarios como administradores pudieran
+                registrarse en la página y apuntarse a las diferentes sesiones
+                que estaban disponibles. Utilizamos todas las tecnologías que
+                nos enseñaron en el curso, y adicionalmente utilizamos Tailwinds
+                para tener mayor libertad de maquetación y un par de librerías
+                externas para poder utilizar mapas, carruseles, elementos
+                gráficos y gestión de formularios de contacto. 
               </p>
             </li>
             <li className="xp-box">
@@ -309,29 +351,43 @@ export const Info = () => {
           </ul>
         </div>
       </div>
-      <div className="mt-32">
-        <h3 className=" text-center font-Sha text-DarkPk text-3xl my-8">
-          Enlaces
-        </h3>
-        <div className="bg-DarkPk flex">
-          <div className="col-span-4 w-1/3">
-            <img className="mx-auto" src="https://placehold.jp/500x500.png" />
+      {/* <div className="my-16">
+        <h3 className="font-Sha profile-titles pt-20 pb-32">Enlaces</h3>
+        <div className="w-2/3 flex mx-auto">
+          <div className=" col-span-4 w-1/4 saturate-50 opacity-50 hover:saturate-100 hover:opacity-100">
+            <a href="/waylanders">
+              <img
+                className="mx-auto"
+                src="https://res.cloudinary.com/jorgepardor/image/upload/v1666703597/jorgepardo.dev/profile%20/waylanders_square_atzwk0.webp"
+              />
+            </a>
           </div>
-          <div className=" col-span-4 w-1/3">
-            <img className="mx-auto" src="https://placehold.jp/500x500.png" />
+          <div className=" col-span-4 w-1/4 saturate-50 opacity-50 hover:saturate-100 hover:opacity-100">
+            <a href="/graphic">
+              <img
+                className="mx-auto"
+                src="https://res.cloudinary.com/jorgepardor/image/upload/v1666702490/jorgepardo.dev/profile%20/fuji_square_xqtovz.webp"
+              />
+            </a>
           </div>
-          <div className=" col-span-4 w-1/3">
-            <img className="mx-auto" src="https://placehold.jp/500x500.png" />
+          <div className=" col-span-4 w-1/4">
+            <a href="/waylanders">
+              <img
+                className="mx-auto"
+                src="https://res.cloudinary.com/jorgepardor/image/upload/v1666702490/jorgepardo.dev/profile%20/fuji_square_xqtovz.webp"
+              />
+            </a>
+          </div>
+          <div className=" col-span-4 w-1/4">
+            <a href="/waylanders">
+              <img
+                className="mx-auto"
+                src="https://res.cloudinary.com/jorgepardor/image/upload/v1666702490/jorgepardo.dev/profile%20/fuji_square_xqtovz.webp"
+              />
+            </a>
           </div>
         </div>
-      </div>
-      <div className="bg-DarkPk flex"></div>
-      <div>
-        <h3>Contacto</h3>
-      </div>
-      <div className="bg-DarkPk flex"></div>
-
-      <div className="bg-DarkPk flex"></div>
+      </div> */}
     </section>
   );
 };

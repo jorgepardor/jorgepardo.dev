@@ -28,22 +28,31 @@ export const Main = () => {
 
           <nav className="flex flex-wrap mt-5 text-center gap-1 cl-effect-18">
             <a
+              href="/profile"
+              className="font-Ral text-sm sm:text-l"
+              data-hover="Profile"
+            >
+              Profile
+            </a>
+            <a
               href="/graphicdesign"
               className="font-Ral text-sm sm:text-l"
               data-hover="Graphic"
             >
               Graphic
             </a>
-            <a href="/waylanders" className="font-Ral text-sm sm:text-l" data-hover="Graphic">
+            <a
+              href="/waylanders"
+              className="font-Ral text-sm sm:text-l"
+              data-hover="Graphic"
+            >
               UX/UI
-            </a>
-            <a href="/profile" className="font-Ral text-sm sm:text-l" data-hover="Profile">
-              Profile
             </a>
             <a
               href="https://flickr.com/photos/jorgeluis/"
               className="font-Ral text-sm sm:text-l"
               data-hover="Photo"
+              target={"_blank"}
             >
               Photo
             </a>
@@ -55,7 +64,6 @@ export const Main = () => {
 
       <div className="main-footer">
         <ul className="md:w-1/2 m-auto flex justify-center items-center mt-3  text-sm text-Light-gray dark:text-gray-400 sm:mt-0">
-         
           <li>
             <a
               href="/assets/Elizabeth Lara Gonzalez.pdf"
@@ -85,6 +93,14 @@ export const Main = () => {
               rel="noreferrer"
             >
               LinkedIn
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/jorgepardor"
+              className="font-Ral text-sm text-gray-500 hover:text-DarkPk md:mx-3"
+            >
+              Github
             </a>
           </li>
           <li>
@@ -149,7 +165,6 @@ export const Main = () => {
           />
         </div>
       </Slider>
-
     </section>
   );
 };
