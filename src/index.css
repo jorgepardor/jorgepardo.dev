@@ -10,7 +10,11 @@
 
 @layer utilities {
   .btn-waylanders {
-    @apply transition ease-in-out duration-500 focus:border-TW-el-active focus:text-TW-el-active inline-flex p-4 font-Cin rounded-t-lg border-b-2 border-transparent text-TW-tx-disable hover:text-TW-tx-enable hover:border-TW-tx-enable dark:hover:text-TW-tx-enable;
+    @apply bg-transparent transition ease-in-out duration-500 inline-flex p-4 font-Cin rounded-t-lg border-b-2 border-transparent text-TW-tx-disable hover:text-TW-tx-enable hover:border-TW-tx-enable dark:hover:text-TW-tx-enable;
+  }
+
+  .btn-waylanders-active {
+    @apply bg-transparent transition ease-in-out duration-500 border-TW-el-active text-TW-el-active inline-flex p-4 font-Cin rounded-t-lg border-b-2;
   }
 
   .icon-waylanders {
@@ -25,7 +29,11 @@
   }
 
   .btn-graphic {
-    @apply transition ease-in-out duration-500 saturate-0 opacity-30 focus:saturate-100 inline-flex p-4 rounded-t-lg border-b-2 border-transparent font-Ral hover:saturate-50 hover:opacity-50 focus:opacity-100;
+    @apply transition ease-in-out duration-500 saturate-0 opacity-30 focus:saturate-100 inline-flex p-4 rounded-t-lg border-b-2 border-transparent font-Ral hover:saturate-50 hover:opacity-50;
+  }
+
+  .btn-graphic-active {
+    @apply transition ease-in-out duration-500 saturate-100 opacity-100 focus:saturate-100 inline-flex p-4 rounded-t-lg border-b-2 border-transparent font-Ral;
   }
 
   .subtitle-graphic {

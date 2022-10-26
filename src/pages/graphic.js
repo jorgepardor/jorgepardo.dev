@@ -6,7 +6,7 @@ import { Wazzp } from "../components/graphic/wazzp";
 import { Venezolana } from "../components/graphic/venezolana";
 import { Other } from "../components/graphic/other";
 
-const active_subclass = "btn-graphic";
+const active_subclass = "btn-graphic-active";
 const nonactive_subclass = "btn-graphic";
 
 export const Graphic = () => {
@@ -25,7 +25,7 @@ export const Graphic = () => {
     // Desactiva los botones que no están en foco en la navegación por tabs.
   
     document
-      .querySelectorAll(".tab")
+      .querySelectorAll(".btn-graphic-active")
       .forEach((element) => (element.className = nonactive_subclass));
   
     // Activa los botones al seleccionarse en la navegación por tabs.

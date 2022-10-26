@@ -8,7 +8,7 @@ import { GraphicElements } from "../components/waylanders/graphic";
 import { Branding } from "../components/waylanders/branding";
 import { Info } from "../components/common/info";
 
-const active_class = "btn-waylanders";
+const active_class = "btn-waylanders-active";
 const deactive_class = "btn-waylanders";
 
 const changeTab = (e) => {
@@ -23,7 +23,7 @@ const changeTab = (e) => {
   // Desactiva los botones que no están en foco en la navegación por tabs.
 
   document
-    .querySelectorAll(".tab")
+    .querySelectorAll(".btn-waylanders-active")
     .forEach((element) => (element.className = deactive_class));
 
   // Activa los botones al activarse en la navegación por tabs.
