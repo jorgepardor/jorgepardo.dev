@@ -12,7 +12,6 @@ const active_class = "btn-waylanders";
 const deactive_class = "btn-waylanders";
 
 const changeTab = (e) => {
-  console.log(e);
   let id = e.target.getAttribute("data-tabs-target");
 
   document
