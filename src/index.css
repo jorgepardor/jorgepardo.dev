@@ -14,7 +14,7 @@
   }
 
   .btn-waylanders-active {
-    @apply bg-transparent transition ease-in-out duration-500 border-TW-el-active text-TW-el-active inline-flex p-4 font-Cin rounded-t-lg border-b-2  hover:text-TW-tx-enable hover:border-TW-tx-enable dark:hover:text-TW-tx-enable;
+    @apply bg-transparent transition ease-in-out duration-500 border-TW-el-active text-TW-el-active inline-flex p-4 font-Cin rounded-t-lg border-b-2;
   }
 
   .icon-waylanders {
