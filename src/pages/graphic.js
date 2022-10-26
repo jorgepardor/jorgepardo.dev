@@ -9,31 +9,35 @@ import { Other } from "../components/graphic/other";
 const active_subclass = "btn-graphic";
 const nonactive_subclass = "btn-graphic";
 
-const changeTab = (e) => {
-  console.log(e);
-  let id = e.currentTarget.getAttribute("data-tabs-target");
-  console.log(id);
-
-  document
-    .querySelectorAll("#mainContentGraphic > div")
-    .forEach((el) => el.classList.add("hidden"));
-
-  const selected = document.querySelector(id)
-  console.log(selected)
-  selected.classList.remove("hidden");
-
-  // Desactiva los botones que no están en foco en la navegación por tabs.
-
-  document
-    .querySelectorAll(".tab")
-    .forEach((element) => (element.className = nonactive_subclass));
-
-  // Activa los botones al activarse en la navegación por tabs.
-
-  document.querySelector(`#${e.currentTarget.id}`).className = active_subclass;
-};
-
 export const Graphic = () => {
+  
+  const changeTab = (e) => {
+  
+    console.log(e);
+    let id = e.currentTarget.getAttribute("data-tabs-target");
+    console.log(id);
+  
+    document
+      .querySelectorAll("#mainContentGraphic > div")
+      .forEach((el) => el.classList.add("hidden"));
+  
+    const selected = document.querySelector(id);
+    console.log(selected);
+    selected.classList.remove("hidden");
+  
+    // Desactiva los botones que no están en foco en la navegación por tabs.
+  
+    document
+      .querySelectorAll(".tab")
+      .forEach((element) => (element.className = nonactive_subclass));
+  
+    // Activa los botones al seleccionarse en la navegación por tabs.
+  
+    document.querySelector(`#${e.currentTarget.id}`).className = active_subclass;
+  };
+
+
+
   return (
     <section className="...">
       <div className="bg-white h-max">
@@ -66,7 +70,7 @@ export const Graphic = () => {
               data-tabs-target="#gato"
               type="button"
               aria-controls="gato"
-              // aria-selected="true"
+              // aria-selected="false"
               onClick={(e) => {
                 changeTab(e);
               }}
@@ -87,7 +91,7 @@ export const Graphic = () => {
               data-tabs-target="#lexquisite"
               type="button"
               aria-controls="lexquisite"
-              // aria-selected="true"
+              // aria-selected="false"
               onClick={(e) => {
                 changeTab(e);
               }}
@@ -108,7 +112,7 @@ export const Graphic = () => {
               data-tabs-target="#wazzp"
               type="button"
               aria-controls="wazzp"
-              // aria-selected="true"
+              // aria-selected="false"
               onClick={(e) => {
                 changeTab(e);
               }}
@@ -129,7 +133,7 @@ export const Graphic = () => {
               data-tabs-target="#venezolana"
               type="button"
               aria-controls="venezolana"
-              // aria-selected="true"
+              // aria-selected="false"
               onClick={(e) => {
                 changeTab(e);
               }}
@@ -166,7 +170,14 @@ export const Graphic = () => {
       </div>
 
       <div className="bg-white" id="mainContentGraphic">
-        {/* Contenido de la sección de gestión de usuarios */}
+        <div
+          className=" mx-auto pb-36"
+          id="fujiyama"
+          role="tabpanel"
+          aria-labelledby="fujiyama-tab"
+        >
+          <Fujiyama />
+        </div>
         <div
           className="hidden mx-auto pb-36"
           id="gato"
@@ -175,15 +186,6 @@ export const Graphic = () => {
         >
           <Gato />
         </div>
-        <div
-          className="container mx-auto pb-36"
-          id="fujiyama"
-          role="tabpanel"
-          aria-labelledby="fujiyama-tab"
-        >
-          <Fujiyama />
-        </div>
-
         <div
           className="hidden mx-auto pb-36"
           id="lexquisite"
