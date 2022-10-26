@@ -13,16 +13,13 @@ export const Graphic = () => {
   
   const changeTab = (e) => {
   
-    console.log(e);
     let id = e.currentTarget.getAttribute("data-tabs-target");
-    console.log(id);
   
     document
       .querySelectorAll("#mainContentGraphic > div")
       .forEach((el) => el.classList.add("hidden"));
   
     const selected = document.querySelector(id);
-    console.log(selected);
     selected.classList.remove("hidden");
   
     // Desactiva los botones que no están en foco en la navegación por tabs.

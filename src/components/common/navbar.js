@@ -10,7 +10,6 @@ export const Navbar = () => {
 
     function darkNavBG() {
       var element = document.getElementById("mainNav");
-      console.log(element);
       element.classList.add("waylanders-navbar");
     }
     function undodarkNavBG() {
@@ -33,7 +32,6 @@ export const Navbar = () => {
       var element = document.getElementById("mainFooter");
       element.classList.add("test");
     }
-    console.log(location.pathname);
     if (location.pathname === "/") {
       hideNavbar();
       hideFooter();
@@ -41,7 +39,6 @@ export const Navbar = () => {
       location.pathname === "/waylanders" ||
       location.pathname === "/profile"
     ) {
-      console.log("tuculo");
       darkNavBG();
       darkFooterBG();
     } else {
