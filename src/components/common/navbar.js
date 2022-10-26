@@ -10,7 +10,6 @@ export const Navbar = () => {
 
     function darkNavBG() {
       var element = document.getElementById("mainNav");
-      console.log(element)
       element.classList.add("waylanders-navbar");
     }
     function undodarkNavBG() {
@@ -33,17 +32,16 @@ export const Navbar = () => {
       var element = document.getElementById("mainFooter");
       element.classList.add("test");
     }
-    console.log(location.pathname)
     if (location.pathname === "/") {
       hideNavbar();
       hideFooter();
-    }
-    else if (location.pathname === "/waylanders" || location.pathname === "/profile") {
-      console.log("tuculo")
+    } else if (
+      location.pathname === "/waylanders" ||
+      location.pathname === "/profile"
+    ) {
       darkNavBG();
       darkFooterBG();
-    }
-    else {
+    } else {
       undodarkNavBG();
       undodarkFooterBG();
     }
@@ -62,6 +60,9 @@ export const Navbar = () => {
       </a>
       <div className="w-full sm:w-1/2 lg:w-1/4 flex justify-center">
         <nav className="cl-effect-18">
+          <a href="/profile" className="font-Ral text-sm" data-hover="Profile">
+            Profile
+          </a>
           <a
             href="/graphicdesign"
             className="font-Ral text-sm"
@@ -76,11 +77,9 @@ export const Navbar = () => {
             href="https://flickr.com/photos/jorgeluis/"
             className="font-Ral text-sm"
             data-hover="Photo"
+            target={"_blank"}
           >
             Photo
-          </a>
-          <a href="/profile" className="font-Ral text-sm" data-hover="Profile">
-            Profile
           </a>
         </nav>
       </div>

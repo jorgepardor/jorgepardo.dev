@@ -12,7 +12,6 @@ const active_class = "btn-waylanders";
 const deactive_class = "btn-waylanders";
 
 const changeTab = (e) => {
-  console.log(e);
   let id = e.target.getAttribute("data-tabs-target");
 
   document
@@ -36,15 +35,18 @@ export const Waylanders = () => {
   return (
     <section className="...">
       <div className="bg-[url('https://res.cloudinary.com/jorgepardor/image/upload/v1660418933/jorgepardo.dev/waylanders/TheWaylanders_LiveStreaming_Banner_iuqvad.png')] bg-no-repeat bg-center bg-cover  border-b-4 border-TW-tx-disable dark:border-TW-tx-disable">
-        <div className="flex items-center py-24">
+        <div className="flex items-center pt-24 pb-2">
           <img
             className="w-4/6 md:w-2/6 m-auto"
             src="https://res.cloudinary.com/jorgepardor/image/upload/v1659882606/jorgepardo.dev/waylanders/logo_waylanders_White_cejixe.webp"
             alt="The Waylanders logo"
           />
         </div>
+        <p className="w-1/2 mx-auto text-center font-Fir text-l  text-TW-tx-enable pt-4 pb-20">
+          The Waylanders es un emocionante RPG de fantasía inspirado en clásicos
+          <br/>como Dragon Age: Origins, Neverwinter Nights y Baldur's Gate.
+        </p>
       </div>
-
       <div className="bg-TW-bg-dark h-max">
         <ul className="flex flex-wrap justify-center -mb-px text-md font-medium text-center text-TW-tx-disable dark:text-gray-400">
           <li className="mr-2 " role="presentation">
@@ -204,7 +206,6 @@ export const Waylanders = () => {
           <UxPreviousIngame />
         </div>
       </div>
-
     </section>
   );
 };
