@@ -12,7 +12,7 @@ export const Footer = () => {
       <ul className="md:w-1/2 m-auto flex justify-center items-center mt-3  text-sm text-Light-gray dark:text-gray-400 sm:mt-0">
         <li>
           <a
-            href="/assets/Elizabeth Lara Gonzalez.pdf"
+            href="https://drive.google.com/file/d/1qn38wpkRzumUQ2sri8Wr7JvO1VhK4hZQ/view?usp=sharing"
             download
             className="font-Ral text-sm mr-4 text-gray-500 hover:text-DarkPk md:mr-6"
             target="_blank"
