@@ -51,28 +51,28 @@ export const CharCreator = () => {
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1660498694/jorgepardo.dev/waylanders/uiux/creator1_result_bvv7mh.webp"
-                alt="Imagen de variedades"
+                alt="Imagen del creador de personajes de The Waylanders"
               />
             </div>
             <div>
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1660498694/jorgepardo.dev/waylanders/uiux/creator2_result_spconx.webp"
-                alt="Imagen de variedades"
+                alt="Imagen del creador de personajes de The Waylanders"
               />
             </div>
             <div className="w-80 mx-auto">
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1660498694/jorgepardo.dev/waylanders/uiux/creator3_result_ah0bun.webp"
-                alt="Imagen de variedades"
+                alt="Imagen del creador de personajes de The Waylanders"
               />
             </div>
             <div>
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1660498694/jorgepardo.dev/waylanders/uiux/creator4_result_z4kwme.webp"
-                alt="Imagen de variedades"
+                alt="Imagen del creador de personajes de The Waylanders"
               />
             </div>
           </Slider>

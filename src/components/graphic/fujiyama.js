@@ -90,42 +90,42 @@ export const Fujiyama = () => {
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334232/jorgepardo.dev/fujiyama/espa%C3%B1a/d19bcc110586413.5ff1c8d3a03e7_result_kiqsoo.webp"
-                alt="Imagen de variedades"
+                alt="Imagen de la identidad corporativa del restaurante Fujiyama"
               />
             </div>
             <div>
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334232/jorgepardo.dev/fujiyama/espa%C3%B1a/cf7e33110586413.5ff1c8d3a127e_result_e8ns4w.webp"
-                alt="Imagen de variedades"
+                alt="Imagen de la identidad corporativa del restaurante Fujiyama"
               />
             </div>
             <div className="w-80 mx-auto">
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334231/jorgepardo.dev/fujiyama/espa%C3%B1a/b22d89110586413.5ff1c8d39f572_result_wrtb8w.webp"
-                alt="Imagen de variedades"
+                alt="Imagen de la identidad corporativa del restaurante Fujiyama"
               />
             </div>
             <div>
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334231/jorgepardo.dev/fujiyama/espa%C3%B1a/c4ee4d110586413.5ff1c8d39ef8e_result_bzbmva.webp"
-                alt="Imagen de variedades"
+                alt="Imagen de la identidad corporativa del restaurante Fujiyama"
               />
             </div>
             <div>
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334230/jorgepardo.dev/fujiyama/espa%C3%B1a/46aa52110586413.5ff1c8d39fc95_result_lj1iz5.webp"
-                alt="Imagen de variedades"
+                alt="Imagen de la identidad corporativa del restaurante Fujiyama"
               />
             </div>
             <div>
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334229/jorgepardo.dev/fujiyama/espa%C3%B1a/8a75b0110586413.5ff1c8d39e865_result_nkc5dp.webp"
-                alt="Imagen de variedades"
+                alt="Imagen de la identidad corporativa del restaurante Fujiyama"
               />
             </div>
           </Slider>
@@ -158,77 +158,77 @@ export const Fujiyama = () => {
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334230/jorgepardo.dev/fujiyama/espa%C3%B1a/151fcf110586413.5ff1dcb43a0bd_result_ft03vb.webp"
-                alt="Imagen de variedades"
+                alt="Imagen de la identidad corporativa del restaurante Fujiyama"
               />
             </div>
             <div>
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334231/jorgepardo.dev/fujiyama/espa%C3%B1a/a276a1110586413.5ff1dcb43a711_result_vht98e.webp"
-                alt="Imagen de variedades"
+                alt="Imagen de la identidad corporativa del restaurante Fujiyama"
               />
             </div>
             <div className="w-80 mx-auto">
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334233/jorgepardo.dev/fujiyama/espa%C3%B1a/da1da3110586413.5ff1dcb494b5f_result_nrwxrc.webp"
-                alt="Imagen de variedades"
+                alt="Imagen de la identidad corporativa del restaurante Fujiyama"
               />
             </div>
             <div>
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334232/jorgepardo.dev/fujiyama/espa%C3%B1a/9014e8110586413.5ff1dcb495698_result_rxoqb2.webp"
-                alt="Imagen de variedades"
+                alt="Imagen de la identidad corporativa del restaurante Fujiyama"
               />
             </div>
             <div>
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334232/jorgepardo.dev/fujiyama/espa%C3%B1a/d87854110586413.5ff1dcb4c8f88_result_q96d9v.webp"
-                alt="Imagen de variedades"
+                alt="Imagen de la identidad corporativa del restaurante Fujiyama"
               />
             </div>
             <div>
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334229/jorgepardo.dev/fujiyama/espa%C3%B1a/2bf294110586413.5ff1dcb4c87a0_result_icj5bk.webp"
-                alt="Imagen de variedades"
+                alt="Imagen de la identidad corporativa del restaurante Fujiyama"
               />
             </div>
             <div>
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334232/jorgepardo.dev/fujiyama/espa%C3%B1a/e1bdcb110586413.5ff1dd07e5917_result_syvfw7.webp"
-                alt="Imagen de variedades"
+                alt="Imagen de la identidad corporativa del restaurante Fujiyama"
               />
             </div>
             <div>
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334229/jorgepardo.dev/fujiyama/espa%C3%B1a/5d91d7110586413.5ff1dd0837604_result_qowurf.webp"
-                alt="Imagen de variedades"
+                alt="Imagen de la identidad corporativa del restaurante Fujiyama"
               />
             </div>
             <div>
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334229/jorgepardo.dev/fujiyama/espa%C3%B1a/002e57110586413.5ff1dd07e6239_result_uceeqk.webp"
-                alt="Imagen de variedades"
+                alt="Imagen de la identidad corporativa del restaurante Fujiyama"
               />
             </div>
             <div>
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334231/jorgepardo.dev/fujiyama/espa%C3%B1a/6703a6110586413.5ff1dd0878196_result_mlp6ek.webp"
-                alt="Imagen de variedades"
+                alt="Imagen de la identidad corporativa del restaurante Fujiyama"
               />
             </div>
             <div>
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334232/jorgepardo.dev/fujiyama/espa%C3%B1a/c1346c110586413.5ff1dd087872e_result_pvlbpm.webp"
-                alt="Imagen de variedades"
+                alt="Imagen de la identidad corporativa del restaurante Fujiyama"
               />
             </div>
           </Slider>

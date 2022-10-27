@@ -64,42 +64,42 @@ export const HudCombat = () => {
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1660590441/jorgepardo.dev/waylanders/uiux/MainMenu_result_igtykw.webp"
-                alt="Imagen de variedades"
+                alt="Imagen del HUD de The Waylanders"
               />
             </div>
             <div className="w-80 mx-auto">
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1660498696/jorgepardo.dev/waylanders/uiux/hudmain_result_ya5sl4.webp"
-                alt="Imagen de variedades"
+                alt="Imagen del HUD de The Waylanders"
               />
             </div>
             <div>
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1660498696/jorgepardo.dev/waylanders/uiux/hudtutorial_result_e70eyn.webp"
-                alt="Imagen de variedades"
+                alt="Imagen del HUD de The Waylanders"
               />
             </div>
             <div className="w-80 mx-auto">
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1660498696/jorgepardo.dev/waylanders/uiux/hudloot_result_ylnr2x.webp"
-                alt="Imagen de variedades"
+                alt="Imagen del HUD de The Waylanders"
               />
             </div>
             <div>
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1660498694/jorgepardo.dev/waylanders/uiux/menuloading_ebz1io.webp"
-                alt="Imagen de variedades"
+                alt="Imagen del HUD de The Waylanders"
               />
             </div>
             <div className="w-80 mx-auto">
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1660498694/jorgepardo.dev/waylanders/uiux/amerginjoins_result_b0lmdl.webp"
-                alt="Imagen de variedades"
+                alt="Imagen del HUD de The Waylanders"
               />
             </div>
           </Slider>
