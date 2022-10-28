@@ -49,28 +49,28 @@ export const Venezolana = () => {
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334605/jorgepardo.dev/design/venezolana%20manual/398cd219199663.562d66c141e70_result_j1u2e5.webp"
-                alt="Imagen de variedades"
+                alt="Imagen del rediseño de la aerolínea Venezolana"
               />
             </div>
             <div className="w-80 mx-auto">
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334603/jorgepardo.dev/design/venezolana%20manual/5eac6f19199663.562d66fe42d84_result_xez8fv.webp"
-                alt="Imagen de variedades"
+                alt="Imagen del rediseño de la aerolínea Venezolana"
               />
             </div>
             <div>
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334603/jorgepardo.dev/design/venezolana%20manual/7bca0819199663.562d66bf15ab4_result_zkfzb5.webp"
-                alt="Imagen de variedades"
+                alt="Imagen del rediseño de la aerolínea Venezolana"
               />
             </div>
             <div>
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334605/jorgepardo.dev/design/venezolana%20manual/95153919199663.562d66e8cbd4e_result_z3prgv.webp"
-                alt="Imagen de variedades"
+                alt="Imagen del rediseño de la aerolínea Venezolana"
               />
             </div>
           </Slider>

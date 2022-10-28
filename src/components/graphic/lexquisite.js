@@ -55,28 +55,28 @@ export const Lexquisite = () => {
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334443/jorgepardo.dev/design/lexquisiteespa%C3%B1a/62aa24110641393.5ff2fe09d65ea_result_rx21xx.webp"
-                alt="Imagen de variedades"
+                alt="Imagen de la identidad corporativa del restaurante L'exquisite"
               />
             </div>
             <div className="w-80 mx-auto">
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334443/jorgepardo.dev/design/lexquisiteespa%C3%B1a/c0e3f3110641393.5ff2fe09d619a_result_xgshic.webp"
-                alt="Imagen de variedades"
+                alt="Imagen de la identidad corporativa del restaurante L'exquisite"
               />
             </div>
             <div className="w-80 mx-auto">
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334448/jorgepardo.dev/design/lexquisiteespa%C3%B1a/90e826110641393.5ff2fe0a52fed_result_gmbk4w.webp"
-                alt="Imagen de variedades"
+                alt="Imagen de la identidad corporativa del restaurante L'exquisite"
               />
             </div>
             <div className="w-80 mx-auto">
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334443/jorgepardo.dev/design/lexquisiteespa%C3%B1a/d83481110641393.5ff2fe0a5293e_result_fjwolm.webp"
-                alt="Imagen de variedades"
+                alt="Imagen de la identidad corporativa del restaurante L'exquisite"
               />
             </div>
           </Slider>
@@ -97,56 +97,56 @@ export const Lexquisite = () => {
                   <img
                     className="mx-auto"
                     src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334485/jorgepardo.dev/design/lexquisitevenezuela/796bac19197009.562d664236059_result_vqw2cj.webp"
-                    alt="Imagen de variedades"
+                    alt="Imagen de la identidad corporativa del restaurante L'exquisite"
                   />
                 </div>
                 <div>
                   <img
                     className="mx-auto"
                     src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334485/jorgepardo.dev/design/lexquisitevenezuela/f9064819197009.562d65e368873_result_jcy4kn.webp"
-                    alt="Imagen de variedades"
+                    alt="Imagen de la identidad corporativa del restaurante L'exquisite"
                   />
                 </div>
                 <div className="w-80 mx-auto">
                   <img
                     className="mx-auto"
                     src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334485/jorgepardo.dev/design/lexquisitevenezuela/b2a7af19197009.562d665f70dac_result_lkxtuf.webp"
-                    alt="Imagen de variedades"
+                    alt="Imagen de la identidad corporativa del restaurante L'exquisite"
                   />
                 </div>
                 <div>
                   <img
                     className="mx-auto"
                     src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334485/jorgepardo.dev/design/lexquisitevenezuela/84161b19197009.562d65e31f54d_result_jzj8od.webp"
-                    alt="Imagen de variedades"
+                    alt="Imagen de la identidad corporativa del restaurante L'exquisite"
                   />
                 </div>
                 <div>
                   <img
                     className="mx-auto"
                     src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334485/jorgepardo.dev/design/lexquisitevenezuela/b79fe919197009.562d665f88a1d_result_ohup2x.webp"
-                    alt="Imagen de variedades"
+                    alt="Imagen de la identidad corporativa del restaurante L'exquisite"
                   />
                 </div>
                 <div>
                   <img
                     className="mx-auto"
                     src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334484/jorgepardo.dev/design/lexquisitevenezuela/2fedce19197009.562d6653bca2d_result_uuqzzh.webp"
-                    alt="Imagen de variedades"
+                    alt="Imagen de la identidad corporativa del restaurante L'exquisite"
                   />
                 </div>
                 <div>
                   <img
                     className="mx-auto"
                     src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334484/jorgepardo.dev/design/lexquisitevenezuela/5fefef19197009.562d65e348f5c_result_kn5ypo.webp"
-                    alt="Imagen de variedades"
+                    alt="Imagen de la identidad corporativa del restaurante L'exquisite"
                   />
                 </div>
                 <div>
                   <img
                     className="mx-auto"
                     src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334484/jorgepardo.dev/design/lexquisitevenezuela/0f088c19197009.562d667062a92_result_os2pwf.webp"
-                    alt="Imagen de variedades"
+                    alt="Imagen de la identidad corporativa del restaurante L'exquisite"
                   />
                 </div>
               </Slider>

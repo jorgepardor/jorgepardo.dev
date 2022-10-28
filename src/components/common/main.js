@@ -119,49 +119,49 @@ export const Main = () => {
           <img
             className="bg-image"
             src="https://res.cloudinary.com/jorgepardor/image/upload/v1663358017/jorgepardo.dev/hero/2347341057_bb3d81cb7e_o_jhifmr.webp"
-            alt="Imagen de variedades"
+            alt="Imagen de fondo del portfolio de Jorge Pardo"
           />
         </div>
         <div className="...">
           <img
             className="bg-image"
             src="https://res.cloudinary.com/jorgepardor/image/upload/v1663357960/jorgepardo.dev/hero/5106809456_cc3d6fa787_o_wbfpmf.jpg"
-            alt="Imagen de variedades"
+            alt="Imagen de fondo del portfolio de Jorge Pardo"
           />
         </div>
         <div className="...">
           <img
             className="bg-image"
             src="https://res.cloudinary.com/jorgepardor/image/upload/v1660498695/jorgepardo.dev/waylanders/uiux/ingameabilities_result_ey3xzd.webp"
-            alt="Imagen de variedades"
+            alt="Imagen de fondo del portfolio de Jorge Pardo"
           />
         </div>
         <div className="...">
           <img
             className="bg-image"
             src="https://res.cloudinary.com/jorgepardor/image/upload/v1663357961/jorgepardo.dev/hero/4535947260_32b748bfdd_o_cepuxm.jpg"
-            alt="Imagen de variedades"
+            alt="Imagen de fondo del portfolio de Jorge Pardo"
           />
         </div>
         <div className="...">
           <img
             className="bg-image"
             src="https://res.cloudinary.com/jorgepardor/image/upload/v1663357960/jorgepardo.dev/hero/2937250416_317367315e_o_jadhzj.jpg"
-            alt="Imagen de variedades"
+            alt="Imagen de fondo del portfolio de Jorge Pardo"
           />
         </div>
         <div className="...">
           <img
             className="bg-image"
             src="https://res.cloudinary.com/jorgepardor/image/upload/v1660498697/jorgepardo.dev/waylanders/uiux/menumapabig_hgvfvd.webp"
-            alt="Imagen de variedades"
+            alt="Imagen de fondo del portfolio de Jorge Pardo"
           />
         </div>
         <div className="...">
           <img
             className="bg-image"
             src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334232/jorgepardo.dev/fujiyama/espa%C3%B1a/c01f90110586413.5ff1c85232429_result_fetoaf.webp"
-            alt="Imagen de variedades"
+            alt="Imagen de fondo del portfolio de Jorge Pardo"
           />
         </div>
       </Slider>

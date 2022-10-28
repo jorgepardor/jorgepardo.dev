@@ -64,70 +64,70 @@ export const InGameMenu = () => {
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1660498695/jorgepardo.dev/waylanders/uiux/ingamestats_result_k6xsvc.webp"
-                alt="Imagen de variedades"
+                alt="l menu ingame de The Waylanders"
               />
             </div>
             <div>
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1660498695/jorgepardo.dev/waylanders/uiux/ingameequipmain_result_ilpxtw.webp"
-                alt="Imagen de variedades"
+                alt="Imagen del menu ingame de The Waylanders"
               />
             </div>
             <div className="w-80 mx-auto">
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1660498695/jorgepardo.dev/waylanders/uiux/ingameabilities_result_ey3xzd.webp"
-                alt="Imagen de variedades"
+                alt="Imagen del menu ingame de The Waylanders"
               />
             </div>
             <div>
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1660498694/jorgepardo.dev/waylanders/uiux/ingameabilities2_result_bvpvt4.webp"
-                alt="Imagen de variedades"
+                alt="Imagen del menu ingame de The Waylanders"
               />
             </div>
             <div className="w-80 mx-auto">
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1660498697/jorgepardo.dev/waylanders/uiux/menumapabig_hgvfvd.webp"
-                alt="Imagen de variedades"
+                alt="Imagen del menu ingame de The Waylanders"
               />
             </div>
             <div>
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1660498696/jorgepardo.dev/waylanders/uiux/ingamemaplocal_result_gztcuq.webp"
-                alt="Imagen de variedades"
+                alt="Imagen del menu ingame de The Waylanders"
               />
             </div>
             <div className="w-80 mx-auto">
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1660498696/jorgepardo.dev/waylanders/uiux/ingamecodexchar_result_fjwq4b.webp"
-                alt="Imagen de variedades"
+                alt="Imagen del menu ingame de The Waylanders"
               />
             </div>
             <div>
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1660498696/jorgepardo.dev/waylanders/uiux/ingamecodexform_result_rf97tt.webp"
-                alt="Imagen de variedades"
+                alt="Imagen del menu ingame de The Waylanders"
               />
             </div>
             <div className="w-80 mx-auto">
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1660498695/jorgepardo.dev/waylanders/uiux/ingamejourney_result_kx4tyr.webp"
-                alt="Imagen de variedades"
+                alt="Imagen del menu ingame de The Waylanders"
               />
             </div>
             <div>
               <img
                 className="mx-auto"
                 src="https://res.cloudinary.com/jorgepardor/image/upload/v1660498695/jorgepardo.dev/waylanders/uiux/ingamesaves_result_vmavad.webp"
-                alt="Imagen de variedades"
+                alt="Imagen del menu ingame de The Waylanders"
               />
             </div>
           </Slider>

@@ -76,7 +76,8 @@ export const Info = () => {
             <a
               type="button"
               href="https://drive.google.com/file/d/1qn38wpkRzumUQ2sri8Wr7JvO1VhK4hZQ/view?usp=sharing"
-              target={"_blank"} rel="noreferrer"
+              target={"_blank"}
+              rel="noreferrer"
               class="mt-5 text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
             >
               Descarga mi CV
@@ -233,15 +234,17 @@ export const Info = () => {
                 mismo.
                 <br />
                 <br />
-                Actualmente somos cuatro personas en el equipo, aunque durante
-                algunas fases del desarrollo hemos contado con colaboración de
-                parte del equipo de concept. Además de trabajar en UI/UX,
-                durante algunas fases del proyecto he participado en tareas del
-                equipo de Guion y Marketing, donde me han pedido que participe
-                en el diseño de piezas de arte promocionales del videojuego, las
-                campañas de Kickstarter del juego de mesa y el videojuego de The
-                Waylanders y el diseño de los stands utilizados en
-                presentaciones de la empresa en ferias. <br />
+                A lo largo del proyecto, trabajé como jefe del departamento de
+                UI/UX, el cual estaba integrado por cuatro personas entre
+                diseñadores y programadores, aunque durante algunas fases del
+                desarrollo contamos con colaboración de parte del equipo de
+                concept. Además de trabajar en UI/UX, durante algunas fases del
+                proyecto he participado en tareas del equipo de Guion y
+                Marketing, donde me pidieron que participase en el diseño de
+                piezas de arte promocionales del videojuego, las campañas de
+                Kickstarter del juego de mesa y el videojuego de The Waylanders
+                y el diseño de los stands utilizados en presentaciones de la
+                empresa en ferias. <br />
                 <br />
                 Acudí a las ediciones del año 2018 y 2019 de la Gamescom, en
                 Colonia, donde presentamos el proyecto ante el público. En la
@@ -290,22 +293,25 @@ export const Info = () => {
                 básicos de maquetación y posteriormente una parte del curso fue
                 dedicada a aprender javascript y react, con el cual pude ahondar
                 en los hooks como herramientas para programar las funcionalidad
-                de una web y las interacciones con APIs. <br /><br />El módulo de backend
-                estuvo centrado en Python, con el cual desarrollé varios
-                ejercicios en los que tenía que diseñar una API que
-                proporcionara información al frontend. Hicimos ejercicios de
-                Data Modelling para ayudarnos a entender los principios del
-                manejo de datos con SQL. En este módulo utilizamos también SQL
-                Alchemy y Flask para diseñar APIs. <br/><br/>Como proyecto final decidimos
-                realizar un software de gestión de un gimnasio, Black Lion Box,
-                en el cual nos pidieron desarrollar el front y el backend de
-                forma que tanto usuarios como administradores pudieran
-                registrarse en la página y apuntarse a las diferentes sesiones
-                que estaban disponibles. Utilizamos todas las tecnologías que
-                nos enseñaron en el curso, y adicionalmente utilizamos Tailwinds
-                para tener mayor libertad de maquetación y un par de librerías
-                externas para poder utilizar mapas, carruseles, elementos
-                gráficos y gestión de formularios de contacto. 
+                de una web y las interacciones con APIs. <br />
+                <br />
+                El módulo de backend estuvo centrado en Python, con el cual
+                desarrollé varios ejercicios en los que tenía que diseñar una
+                API que proporcionara información al frontend. Hicimos
+                ejercicios de Data Modelling para ayudarnos a entender los
+                principios del manejo de datos con SQL. En este módulo
+                utilizamos también SQL Alchemy y Flask para diseñar APIs. <br />
+                <br />
+                Como proyecto final decidimos realizar un software de gestión de
+                un gimnasio, Black Lion Box, en el cual nos pidieron desarrollar
+                el front y el backend de forma que tanto usuarios como
+                administradores pudieran registrarse en la página y apuntarse a
+                las diferentes sesiones que estaban disponibles. Utilizamos
+                todas las tecnologías que nos enseñaron en el curso, y
+                adicionalmente utilizamos Tailwinds para tener mayor libertad de
+                maquetación y un par de librerías externas para poder utilizar
+                mapas, carruseles, elementos gráficos y gestión de formularios
+                de contacto.
               </p>
             </li>
             <li className="xp-box">

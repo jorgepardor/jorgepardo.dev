@@ -56,7 +56,6 @@ export const Waylanders = () => {
               data-tabs-target="#uxui"
               type="button"
               aria-controls="uxui"
-              // aria-selected="true"
               onClick={(e) => {
                 changeTab(e);
               }}
@@ -86,7 +85,6 @@ export const Waylanders = () => {
               data-tabs-target="#branding"
               type="button"
               aria-controls="branding"
-              // aria-selected="true"
               onClick={(e) => {
                 changeTab(e);
               }}
@@ -112,7 +110,6 @@ export const Waylanders = () => {
               data-tabs-target="#graphic"
               type="button"
               aria-controls="graphic"
-              // aria-selected="true"
               onClick={(e) => {
                 changeTab(e);
               }}
@@ -138,7 +135,6 @@ export const Waylanders = () => {
               data-tabs-target="#other"
               type="button"
               aria-controls="other"
-              // aria-selected="true"
               onClick={(e) => {
                 changeTab(e);
               }}
