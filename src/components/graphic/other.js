@@ -1,5 +1,4 @@
 import React from "react";
-import Slider from "react-slick";
 
 export const Other = () => {
   return (
@@ -9,6 +8,7 @@ export const Other = () => {
           <div className="row">
             <img
               src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334662/jorgepardo.dev/design/dada/c13ae137783115.574c823b62f40_d3gkr5.jpg"
+              alt=""
               className="mx-auto"
             />
           </div>
@@ -26,20 +26,24 @@ export const Other = () => {
           <div className="grid grid-cols-2 mb-8">
             <img
               src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334661/jorgepardo.dev/design/dada/9c21c237783115.574cb670bd305_ejddw3.jpg"
+              alt=""
               className="mx-auto"
             />{" "}
             <img
               src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334661/jorgepardo.dev/design/dada/69ddc437783115.574cb670bd977_ngrtmz.jpg"
+              alt=""
               className="mx-auto"
             />
           </div>
           <div className="row">
             <img
               src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334662/jorgepardo.dev/design/dada/28733e37783115.574c807b48aa8_a8huql.jpg"
+              alt=""
               className="mx-auto mb-8"
             />
             <img
               src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334663/jorgepardo.dev/design/dada/117ee237783115.574c823b63a92_1_poskz8.jpg"
+              alt=""
               className="mx-auto w-5/6"
             />
           </div>

@@ -14,7 +14,8 @@ module.exports = {
       "TW-bg-dark": "#191712",
       "TW-tx-enable": "#CFC7A0",
       "TW-tx-disable": "#575757",
-      "TW-el-active": "#EDAD49"
+      "TW-el-active": "#EDAD49",
+      "Profile-text": "#4b5563"
 
 
 

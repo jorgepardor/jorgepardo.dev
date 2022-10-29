@@ -1,5 +1,4 @@
 import React from "react";
-import Slider from "react-slick";
 
 export const Wazzp = () => {
   return (
@@ -7,32 +6,32 @@ export const Wazzp = () => {
       <div className="flex items-center justify-center mx-14 py-14">
         <div className="container">
           <div className="row flex justify-center">
-            <img src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334525/jorgepardo.dev/design/wazzp/41417a42882325.57daf7f06b4d9_1__result_nfvfuk.webp" />
+            <img src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334525/jorgepardo.dev/design/wazzp/41417a42882325.57daf7f06b4d9_1__result_nfvfuk.webp" alt="Imagen de marca de Wazzp"/>
           </div>
 
           <div className="row mx-auto">
-            <img src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334525/jorgepardo.dev/design/wazzp/c4068d42882325.57daf7f06c939_1__result_bz5xer.webp" />
+            <img src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334525/jorgepardo.dev/design/wazzp/c4068d42882325.57daf7f06c939_1__result_bz5xer.webp" alt="Imagen de marca de Wazzp" />
           </div>
         </div>
       </div>
       <div className="flex justify-center mx-auto">
         <img
           className="w-1/2 p-8"
-          src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334525/jorgepardo.dev/design/wazzp/426df042882325.57daf7f06bb9c_1__result_lplqdm.webp"
+          src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334525/jorgepardo.dev/design/wazzp/426df042882325.57daf7f06bb9c_1__result_lplqdm.webp" alt="Imagen de marca de Wazzp"
         />
         <img
           className="w-1/2 p-8"
-          src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334525/jorgepardo.dev/design/wazzp/33052442882325.57daf7f06c2ce_result_aelhnb.webp"
+          src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334525/jorgepardo.dev/design/wazzp/33052442882325.57daf7f06c2ce_result_aelhnb.webp" alt="Imagen de marca de Wazzp"
         />
       </div>
       <div className="flex justify-center mx-auto">
         <img
           className="w-1/2 p-8"
-          src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334525/jorgepardo.dev/design/wazzp/2ecee842882325.57daf7f06cece_1__result_zds9d9.webp"
+          src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334525/jorgepardo.dev/design/wazzp/2ecee842882325.57daf7f06cece_1__result_zds9d9.webp" alt="Imagen de marca de Wazzp"
         />
         <img
           className="w-1/2 p-8"
-          src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334525/jorgepardo.dev/design/wazzp/31c84d42882325.57daf7f06d4c5_result_m29gak.webp"
+          src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334525/jorgepardo.dev/design/wazzp/31c84d42882325.57daf7f06d4c5_result_m29gak.webp" alt="Imagen de marca de Wazzp"
         />
       </div>
 
@@ -43,7 +42,9 @@ export const Wazzp = () => {
           <a
             href="https://www.behance.net/gallery/42882325/Wazzp-Studio"
             className="inline-flex items-center font-medium text-DarkGR dark:text-DarkGR hover:underline"
-            target="_blank"
+            target={"_blank"}
+            rel={"noreferrer"}
+
           >
             Behance
             <svg

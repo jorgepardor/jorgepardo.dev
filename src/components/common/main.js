@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
-import { Heading } from "./heading";
+import { Heading } from "../../icons/heading";
 
 export const Main = () => {
   const mainCarousel = {
@@ -53,6 +53,7 @@ export const Main = () => {
               className="font-Ral text-sm sm:text-l"
               data-hover="Photo"
               target={"_blank"}
+              rel={"noreferrer"}
             >
               Photo
             </a>
@@ -62,7 +63,7 @@ export const Main = () => {
 
       <div className="gradient-bg"></div>
 
-      <div className="main-footer">
+      <div className="absolute z-30 bottom-8 left-1/2 -ml-[166px] md:-ml-48 main-footer">
         <ul className="md:w-1/2 m-auto flex justify-center items-center mt-3  text-sm text-Light-gray dark:text-gray-400 sm:mt-0">
           <li>
             <a
@@ -98,7 +99,7 @@ export const Main = () => {
           <li>
             <a
               href="https://github.com/jorgepardor"
-              className="font-Ral text-sm text-gray-500 hover:text-DarkPk md:mx-3"
+              className="font-Ral text-sm text-gray-500 hover:text-DarkPk mr-4 md:mx-3"
             >
               Github
             </a>
