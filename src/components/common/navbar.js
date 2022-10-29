@@ -1,11 +1,12 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
-import { Heading } from "./heading";
+import { Heading } from "../../icons/heading";
 
 export const Navbar = () => {
   const location = useLocation();
   useEffect(() => {
+    // eslint-disable-next-line 
     const currentPath = location.pathname;
 
     function darkNavBG() {
@@ -32,7 +33,7 @@ export const Navbar = () => {
       var element = document.getElementById("mainFooter");
       element.classList.add("test");
     }
-    if (location.pathname === "/") {
+    if (location.pathname === "/" || location.pathname === "/links") {
       hideNavbar();
       hideFooter();
     } else if (
@@ -78,6 +79,7 @@ export const Navbar = () => {
             className="font-Ral text-sm"
             data-hover="Photo"
             target={"_blank"}
+            rel={"noreferrer"}
           >
             Photo
           </a>

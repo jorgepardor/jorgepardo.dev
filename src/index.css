@@ -90,11 +90,11 @@
 }
 
 .main-footer {
-  position: absolute;
+  /* position: absolute;
   z-index: 21;
   bottom: 30px;
-  left: 50%;
-  margin-left: -200px;
+  left: 50%; */
+  /* margin-left: -200px; */
 }
 
 .color-6 {
@@ -556,4 +556,10 @@ nav a:focus {
   letter-spacing: 15px;
   text-transform: uppercase;
   padding-bottom: 4.5rem;
+}
+
+.link-icon {
+  width: 16px;
+  height: auto;
+  margin-right: 0.5rem;
 }
