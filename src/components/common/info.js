@@ -82,7 +82,7 @@ export const Info = () => {
             <div className="flex justify-center mb:block">
               <a
                 type="button"
-                href="https://drive.google.com/file/d/1qn38wpkRzumUQ2sri8Wr7JvO1VhK4hZQ/view?usp=sharing"
+                href="https://drive.google.com/drive/folders/1Jc3iOZSoYyCnWS5Aw2IQ8dn2PPRxQZpw?usp=share_link"
                 target={"_blank"}
                 rel="noreferrer"
                 class="mt-5 text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center md:mr-2 mb-2"
