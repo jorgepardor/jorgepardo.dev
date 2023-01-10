@@ -6,7 +6,6 @@ import { UxPreviousMain } from "../components/waylanders/otherUxProto";
 import { UxPreviousIngame } from "../components/waylanders/otherUxProtoIngame";
 import { GraphicElements } from "../components/waylanders/graphic";
 import { Branding } from "../components/waylanders/branding";
-import { Info } from "../components/common/info";
 
 const active_class = "btn-waylanders-active";
 const deactive_class = "btn-waylanders";

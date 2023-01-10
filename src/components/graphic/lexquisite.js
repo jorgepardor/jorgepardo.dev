@@ -35,18 +35,18 @@ export const Lexquisite = () => {
         <div className="container">
           <div className="row">
             <img
-              src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334441/jorgepardo.dev/design/lexquisiteespa%C3%B1a/a762d1110641393.5ff2fe0b946d4_result_y3ytdk.webp"
+              src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334441/jorgepardo.dev/design/lexquisiteespa%C3%B1a/a762d1110641393.5ff2fe0b946d4_result_y3ytdk.webp" alt="Imagen de marca de L'exquisite"
               className="mx-auto"
             />
           </div>
 
           <div className="grid grid-cols-3 mb-8">
-            <img src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334442/jorgepardo.dev/design/lexquisiteespa%C3%B1a/ebccd7110641393.5ff2fe0aced75_result_tdv4b4.webp" />
-            <img src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334442/jorgepardo.dev/design/lexquisiteespa%C3%B1a/7cfc23110641393.5ff2fe0acd5fd_result_mngebt.webp" />
-            <img src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334442/jorgepardo.dev/design/lexquisiteespa%C3%B1a/deaf18110641393.5ff2fe0acc594_result_im03u1.webp" />
-            <img src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334442/jorgepardo.dev/design/lexquisiteespa%C3%B1a/d38586110641393.5ff2fe0acde56_result_asfice.webp" />
-            <img src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334442/jorgepardo.dev/design/lexquisiteespa%C3%B1a/03fe76110641393.5ff2fe0acbc15_result_utrb53.webp" />
-            <img src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334441/jorgepardo.dev/design/lexquisiteespa%C3%B1a/959982110641393.5ff2fe0accd61_result_ffkyeo.webp" />
+            <img src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334442/jorgepardo.dev/design/lexquisiteespa%C3%B1a/ebccd7110641393.5ff2fe0aced75_result_tdv4b4.webp" alt="Imagen de marca de L'exquisite" />
+            <img src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334442/jorgepardo.dev/design/lexquisiteespa%C3%B1a/7cfc23110641393.5ff2fe0acd5fd_result_mngebt.webp" alt="Imagen de marca de L'exquisite" />
+            <img src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334442/jorgepardo.dev/design/lexquisiteespa%C3%B1a/deaf18110641393.5ff2fe0acc594_result_im03u1.webp" alt="Imagen de marca de L'exquisite" />
+            <img src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334442/jorgepardo.dev/design/lexquisiteespa%C3%B1a/d38586110641393.5ff2fe0acde56_result_asfice.webp" alt="Imagen de marca de L'exquisite" />
+            <img src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334442/jorgepardo.dev/design/lexquisiteespa%C3%B1a/03fe76110641393.5ff2fe0acbc15_result_utrb53.webp" alt="Imagen de marca de L'exquisite" />
+            <img src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334441/jorgepardo.dev/design/lexquisiteespa%C3%B1a/959982110641393.5ff2fe0accd61_result_ffkyeo.webp" alt="Imagen de marca de L'exquisite" />
             {/* <img src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334441/jorgepardo.dev/design/lexquisiteespa%C3%B1a/816527110641393.5ff2fe0ace6c4_result_iich2e.webp" /> */}
           </div>
 
@@ -84,12 +84,12 @@ export const Lexquisite = () => {
           <hr className="mb-8" />
 
           <div className="mb-8 flex align-middle">
-            <img src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334485/jorgepardo.dev/design/lexquisitevenezuela/40c31819197009.562d66352a5cc_1__result_wcw35b.webp" />
+            <img src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334485/jorgepardo.dev/design/lexquisitevenezuela/40c31819197009.562d66352a5cc_1__result_wcw35b.webp" alt="Imagen de marca de L'exquisite" />
           </div>
 
           <div className="grid grid-cols-3">
             <div className="col-span-2">
-              <img src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334485/jorgepardo.dev/design/lexquisitevenezuela/406a5419197009.562d665de90d0_result_jmc7b0.webp" />
+              <img src="https://res.cloudinary.com/jorgepardor/image/upload/v1661334485/jorgepardo.dev/design/lexquisitevenezuela/406a5419197009.562d665de90d0_result_jmc7b0.webp" alt="Imagen de marca de L'exquisite" />
             </div>
             <div className="...">
               <Slider {...bookletLexquisite}>
@@ -160,7 +160,8 @@ export const Lexquisite = () => {
               <a
                 href="https://www.behance.net/gallery/110641393/LExquisite-Grill-Ribs"
                 className="inline-flex items-center font-medium text-DarkGR dark:text-DarkGR hover:underline"
-                target="_blank"
+                target={"_blank"}
+                rel={"noreferrer"}
               >
                 Behance
                 <svg

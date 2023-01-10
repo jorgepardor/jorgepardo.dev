@@ -31,25 +31,31 @@ export const Info = () => {
 
   return (
     <section className="bg-TW-bg-dark container mx-auto">
-      <div className="mt-44">
-        <h3 className="font-Sha profile-titles pb-24">¿Quién soy?</h3>
+      <div className=" mt-16 md:mt-44">
+        <h3 className="font-Sha profile-titles pb-16 mb:pb-24">¿Quién soy?</h3>
       </div>
-      <div className="rounded-xl mx-auto mt-6 w-2/3">
-        <div className="grid md:grid-cols-3 gap-4 p-4 mx-auto">
-          <div className=" col-span-1">
+      <div className="rounded-xl mx-auto md:mt-6 md:w-2/3 w-full">
+        <div className="md:grid md:grid-cols-3 md:gap-4 p-4 mx-auto">
+          <div className="md:col-span-1">
             <img
               src="https://res.cloudinary.com/jorgepardor/image/upload/v1666709961/profile_xyk2ag.webp"
-              className="px-2"
+              className="md:px-2 md:w-full w-1/2 mx-auto mb-6 md:mb-0"
+              alt="foto de perfil de jorge pardo"
             />
           </div>
-          <div className=" col-span-2">
-            <h2 className=" text-white font-Ral text-3xl">
+          <div className=" md:col-span-2">
+            <h2 className=" text-white font-Ral md:text-3xl text-2xl text-center md:text-left">
               Hola, soy Jorge Luis Pardo
             </h2>
-            <h4 className="font-Ral text-lg text-DarkPk">
+            <h4 className="font-Ral md:text-lg text-DarkPk hidden md:block">
               Desarrollador frontend || Diseñador UI/UX || Diseñador Gráfico
             </h4>
-            <p className=" text-white font-Ral text-md w-100 mt-5">
+            <h4 className="font-Ral md:text-lg text-DarkPk md:hidden text-center">
+              Desarrollador frontend
+              <br />
+              Diseñador UI/UX / gráfico
+            </h4>
+            <p className=" text-white font-Ral text-md w-100 mt-5 text-center md:text-left">
               Terminé mi carrera de diseño gráfico en 2012 y desde entonces he
               trabajado en proyectos relacionados a la programación y el diseño.
               Trabajé varios años compaginando tareas tanto de diseño offline
@@ -65,7 +71,7 @@ export const Info = () => {
               proporcionado muchos recursos para integrarlos a mis habilidades
               profesionales.
             </p>
-            <table className="mt-5">
+            <table className="mt-5 hidden md:d-block">
               <tr>
                 <td className=" text-white font-Ral text-md w-20">Email:</td>
                 <td className=" font-Ral text-md text-DarkPk">
@@ -73,28 +79,33 @@ export const Info = () => {
                 </td>
               </tr>
             </table>
-            <a
-              type="button"
-              href="https://drive.google.com/file/d/1qn38wpkRzumUQ2sri8Wr7JvO1VhK4hZQ/view?usp=sharing"
-              target={"_blank"}
-              rel="noreferrer"
-              class="mt-5 text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
-            >
-              Descarga mi CV
-            </a>
+            <div className="flex justify-center mb:block">
+              <a
+                type="button"
+                href="https://drive.google.com/drive/folders/1Jc3iOZSoYyCnWS5Aw2IQ8dn2PPRxQZpw?usp=share_link"
+                target={"_blank"}
+                rel="noreferrer"
+                class="mt-5 text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center md:mr-2 mb-2"
+              >
+                Descarga mi CV
+              </a>
+            </div>
           </div>
         </div>
       </div>
 
       <div className="mt-16">
-        <h3 className="font-Sha profile-titles pt-10 pb-32">¿Qué hago?</h3>
+        <h3 className="font-Sha profile-titles md:pt-10 md:pb-32 pb-10">
+          ¿Qué hago?
+        </h3>
       </div>
-      <div className="flex">
-        <div className="col-span-4 w-1/3">
-          <div className="d-flex justify-center opacity-50 hover:opacity-100 transition-all ease-in-out duration-1000">
+      <div className="md:flex">
+        <div className="col-span-4 md:w-1/3 w-full">
+          <div className="d-flex justify-center opacity-100 md:opacity-50 hover:opacity-100 transition-all ease-in-out duration-1000">
             <img
               className="rounded-full w-3/4 py-3 mx-auto"
               src="https://res.cloudinary.com/jorgepardor/image/upload/v1666642476/jorgepardo.dev/profile%20/code-form_obd2vw.svg"
+              alt=""
             />
           </div>
           <h6 className="feats-title font-Ral text-xl">
@@ -106,11 +117,12 @@ export const Info = () => {
           </p> */}
         </div>
 
-        <div className="col-span-4 w-1/3">
-          <div className="d-flex justify-center opacity-50 hover:opacity-100 transition-all ease-in-out duration-1000">
+        <div className="col-span-4 md:w-1/3 w-100">
+          <div className="d-flex justify-center opacity-100 md:opacity-50 hover:opacity-100 transition-all ease-in-out duration-1000">
             <img
               className="rounded-full w-3/4 py-3 mx-auto"
               src="https://res.cloudinary.com/jorgepardor/image/upload/v1666642476/jorgepardo.dev/profile%20/user-form_ayxs3b.svg"
+              alt=""
             />
           </div>
           <h6 className="feats-title font-Ral text-xl">Diseño UI/UX</h6>
@@ -120,11 +132,12 @@ export const Info = () => {
           </p> */}
         </div>
 
-        <div className="col-span-4 w-1/3">
-          <div className="d-flex justify-center opacity-50 hover:opacity-100 transition-all ease-in-out duration-1000">
+        <div className="col-span-4 md:w-1/3 w-100">
+          <div className="d-flex justify-center  opacity-100 md:opacity-50 hover:opacity-100 transition-all ease-in-out duration-1000">
             <img
               className="rounded-full w-3/4 py-3 mx-auto"
               src="https://res.cloudinary.com/jorgepardor/image/upload/v1666642054/jorgepardo.dev/profile%20/graphic-form_hwxvrg.svg"
+              alt=""
             />
           </div>
           <h6 className="feats-title font-Ral text-xl"> Diseño Gráfico</h6>
@@ -135,10 +148,10 @@ export const Info = () => {
         </div>
       </div>
 
-      <div className="mt-16">
+      <div className="mt-16 hidden md:block">
         <h3 className="font-Sha profile-titles pt-20 pb-32">¿Cómo lo hago?</h3>
       </div>
-      <div className="...">
+      <div className="hidden md:block">
         <div className="p-4">
           <ul className="chips-container mb-2">
             {tech.map((value, index) => {
@@ -162,12 +175,12 @@ export const Info = () => {
       </div>
 
       <div className="mt-16">
-        <h3 className="font-Sha profile-titles pt-20 pb-32">
+        <h3 className="font-Sha profile-titles md:pt-20 pt-16 pb-16 md:pb-32">
           ¿Dónde aprendí a hacerlo?
         </h3>
       </div>
-      <div className="grid-rows-2 gap-8 flex pb-32">
-        <div className="w-1/2">
+      <div className="md:grid-rows-2 md:gap-8 md:flex pb-32">
+        <div className="md:w-1/2 w-100">
           <h4 className="font-Ral education-titles">Experiencia</h4>
           <ul className="px-8">
             <li className="xp-box">
@@ -276,7 +289,7 @@ export const Info = () => {
             </li>
           </ul>
         </div>
-        <div className="w-1/2">
+        <div className="md:w-1/2 w-100">
           <h4 className="font-Ral education-titles">Educación</h4>
           <ul className="px-8">
             <li className="xp-box">
