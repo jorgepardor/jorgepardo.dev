@@ -2,6 +2,7 @@ import React from "react";
 
 export const Info = () => {
   const tech = [
+    "Vue.js",
     "HTML",
     "CSS",
     "Bootstrap",
